@@ -1,0 +1,55 @@
+#!/bin/bash
+#$ -N spc
+#$ -S /bin/bash
+#$ -q all.q@compute-1-*
+##$ -pe orte 16
+#$ -cwd
+#$ -o spc.out
+#$ -e spc.err
+
+model="spc"
+
+protocol="min min2 eql eql2 prd"
+
+base_dir=/home/dgomes/water_md/
+
+# Source GROMACS
+source ~/software/gmx2018.7/bin/GMXRC.bash 
+
+# Functions -------------------------------------------------------------------
+run_mdrun() {
+case ${run} in 
+"min")
+	prev="box"
+	extra_flag=""
+;;
+"min2"|"eql")
+	extra_flag="-t ${prev}.trr"
+;;
+*)
+	extra_flag="-t ${prev}.cpt"
+
+esac
+
+gmx grompp -maxwarn 1 -v -f ${base_dir}/mdp/${run}.mdp -c ${prev}.gro -p topol.top -o ${run}.tpr ${extra_flag}
+gmx mdrun -deffnm ${run} &> ${run}.job
+}
+
+run_simulation() {
+	
+for run in ${protocol} ; do
+    run_mdrun
+    prev=${run}
+done
+}
+
+# Program ---------------------------------------------------------------------
+
+folder=${base_dir}/${model}
+cd ${folder}
+
+echo $PWD
+run_simulation
+
+
+

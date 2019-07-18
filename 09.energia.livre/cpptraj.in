@@ -1,0 +1,18 @@
+# Carrega a topologia do sistema (.prmtop - formato AMBER)
+parm   sistema.prmtop
+
+# Carrega a trajetoria da DM ( .xtc - formato GROMACS)
+trajin prod_fit.xtc 
+
+# Remove as moleculas de agua e ions
+strip :SOL,NA,CL
+
+# Sobrepoe a trajetoria usando o BACKBONE como referencia
+rms :1-198 & @CA,C,N,O reference
+
+# Salva a topologia do complexo, no formato AMBER 
+trajout prod_fit_complexo.nc
+
+# Executa os comandos e sai.
+go
+quit

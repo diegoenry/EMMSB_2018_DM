@@ -1,0 +1,31 @@
+#!/bin/bash 
+
+gmx editconf -c -f complexo.gro -o caixa.gro -d 1.0 
+
+cp complexo.top caixa.top
+
+gmx solvate -cs -cp caixa.gro -p caixa.top -o caixa.gro
+
+# Veja como ficou
+vmd caixa.gro
+
+# Use o script abaixo para ver a proteina muito linda.
+vmd -e caixa.vmd 
+
+# Preparar para adicionar os ions
+gmx grompp -v -f addion.mdp -c caixa.gro -p caixa.top -o addion.tpr
+
+
+# Copie a caixa.top para sistema.top   ( apenas para preservarmos os arquivos)
+cp caixa.top sistema.top
+
+# Neutralizar o sistema substituindo agua por ions, e deixar com concentracao de 150 mM de NaCl
+gmx genion -s addion.tpr -p sistema.top -o sistema.gro -neutral -conc 0.15 -pname NA -nname CL
+
+# Veja como ficou
+vmd sistema.gro      
+
+# No metodo lindo:
+vmd -e sistema.vmd
+
+

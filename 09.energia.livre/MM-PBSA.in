@@ -1,0 +1,7 @@
+Arquivo de entrada para correr o MMGBSA
+&general
+   keep_files=0,endframe=1000, keep_files=2,interval=10
+/
+&pb
+  istrng=0.100,
+/

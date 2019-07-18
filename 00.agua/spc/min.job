@@ -1,0 +1,139 @@
+                      :-) GROMACS - gmx mdrun, 2019.3 (-:
+
+                            GROMACS is written by:
+     Emile Apol      Rossen Apostolov      Paul Bauer     Herman J.C. Berendsen
+    Par Bjelkmar      Christian Blau   Viacheslav Bolnykh     Kevin Boyd    
+ Aldert van Buuren   Rudi van Drunen     Anton Feenstra       Alan Gray     
+  Gerrit Groenhof     Anca Hamuraru    Vincent Hindriksen  M. Eric Irrgang  
+  Aleksei Iupinov   Christoph Junghans     Joe Jordan     Dimitrios Karkoulis
+    Peter Kasson        Jiri Kraus      Carsten Kutzner      Per Larsson    
+  Justin A. Lemkul    Viveca Lindahl    Magnus Lundborg     Erik Marklund   
+    Pascal Merz     Pieter Meulenhoff    Teemu Murtola       Szilard Pall   
+    Sander Pronk      Roland Schulz      Michael Shirts    Alexey Shvetsov  
+   Alfons Sijbers     Peter Tieleman      Jon Vincent      Teemu Virolainen 
+ Christian Wennberg    Maarten Wolf   
+                           and the project leaders:
+        Mark Abraham, Berk Hess, Erik Lindahl, and David van der Spoel
+
+Copyright (c) 1991-2000, University of Groningen, The Netherlands.
+Copyright (c) 2001-2018, The GROMACS development team at
+Uppsala University, Stockholm University and
+the Royal Institute of Technology, Sweden.
+check out http://www.gromacs.org for more information.
+
+GROMACS is free software; you can redistribute it and/or modify it
+under the terms of the GNU Lesser General Public License
+as published by the Free Software Foundation; either version 2.1
+of the License, or (at your option) any later version.
+
+GROMACS:      gmx mdrun, version 2019.3
+Executable:   /home/dgomes/software/gmx2019.3/bin/gmx
+Data prefix:  /home/dgomes/software/gmx2019.3
+Working dir:  /home/dgomes/water_md/spc
+Command line:
+  gmx mdrun -deffnm min
+
+
+Back Off! I just backed up min.log to ./#min.log.2#
+Reading file min.tpr, VERSION 2019.3 (single precision)
+Using 1 MPI thread
+Using 8 OpenMP threads 
+
+
+Back Off! I just backed up min.trr to ./#min.trr.2#
+
+Back Off! I just backed up min.edr to ./#min.edr.2#
+
+Steepest Descents:
+   Tolerance (Fmax)   =  1.00000e+01
+   Number of steps    =         1000
+
+Step 10, time 0.01 (ps)  LINCS WARNING
+relative constraint deviation after LINCS:
+rms 0.001549, max 0.031263 (between atoms 625 and 627)
+bonds that rotated more than 30 degrees:
+ atom 1 atom 2  angle  previous, current, constraint length
+    625    626   38.5    0.1000   0.0994      0.1000
+    625    627   34.2    0.1000   0.0969      0.1000
+   1081   1082   40.0    0.1000   0.1021      0.1000
+   1081   1083   33.9    0.1000   0.1024      0.1000
+
+Step 18, time 0.018 (ps)  LINCS WARNING
+relative constraint deviation after LINCS:
+rms 0.001310, max 0.039611 (between atoms 1951 and 1952)
+bonds that rotated more than 30 degrees:
+ atom 1 atom 2  angle  previous, current, constraint length
+   1951   1952   33.8    0.0976   0.1040      0.1000
+   1951   1953   34.8    0.0976   0.1038      0.1000
+
+Step 19, time 0.019 (ps)  LINCS WARNING
+relative constraint deviation after LINCS:
+rms 0.001378, max 0.041000 (between atoms 1951 and 1953)
+bonds that rotated more than 30 degrees:
+ atom 1 atom 2  angle  previous, current, constraint length
+   1951   1952   35.4    0.1040   0.0959      0.1000
+   1951   1953   36.2    0.1038   0.0959      0.1000
+
+Step 20, time 0.02 (ps)  LINCS WARNING
+relative constraint deviation after LINCS:
+rms 0.003754, max 0.112837 (between atoms 1951 and 1952)
+bonds that rotated more than 30 degrees:
+ atom 1 atom 2  angle  previous, current, constraint length
+   1951   1952   50.9    0.0959   0.1113      0.1000
+   1951   1953   51.4    0.0959   0.1110      0.1000
+
+Step 21, time 0.021 (ps)  LINCS WARNING
+relative constraint deviation after LINCS:
+rms 0.004869, max 0.107123 (between atoms 2194 and 2196)
+bonds that rotated more than 30 degrees:
+ atom 1 atom 2  angle  previous, current, constraint length
+   1951   1952   74.0    0.1113   0.0896      0.1000
+   1951   1953   65.6    0.1110   0.0900      0.1000
+   2194   2195   50.4    0.1001   0.0905      0.1000
+   2194   2196   46.8    0.1001   0.0893      0.1000
+
+Step 23, time 0.023 (ps)  LINCS WARNING
+relative constraint deviation after LINCS:
+rms 0.001631, max 0.049088 (between atoms 2194 and 2196)
+bonds that rotated more than 30 degrees:
+ atom 1 atom 2  angle  previous, current, constraint length
+   2194   2195   39.7    0.0989   0.1045      0.1000
+   2194   2196   36.4    0.0988   0.1049      0.1000
+
+Step 24, time 0.024 (ps)  LINCS WARNING
+relative constraint deviation after LINCS:
+rms 0.002078, max 0.061986 (between atoms 2194 and 2196)
+bonds that rotated more than 30 degrees:
+ atom 1 atom 2  angle  previous, current, constraint length
+   2194   2195   38.5    0.1045   0.0939      0.1000
+   2194   2196   36.6    0.1049   0.0938      0.1000
+
+Step 25, time 0.025 (ps)  LINCS WARNING
+relative constraint deviation after LINCS:
+rms 0.002902, max 0.087797 (between atoms 2194 and 2196)
+bonds that rotated more than 30 degrees:
+ atom 1 atom 2  angle  previous, current, constraint length
+   2194   2195   48.3    0.0939   0.1080      0.1000
+   2194   2196   46.9    0.0938   0.1088      0.1000
+
+Step 27, time 0.027 (ps)  LINCS WARNING
+relative constraint deviation after LINCS:
+rms 0.001648, max 0.041400 (between atoms 1951 and 1952)
+bonds that rotated more than 30 degrees:
+ atom 1 atom 2  angle  previous, current, constraint length
+   1951   1953   31.1    0.1002   0.0959      0.1000
+
+Energy minimization reached the maximum number of steps before the forces
+reached the requested precision Fmax < 10.
+
+writing lowest energy coordinates.
+
+Back Off! I just backed up min.gro to ./#min.gro.2#
+
+Steepest Descents did not converge to Fmax < 10 in 1001 steps.
+Potential Energy  = -4.6050605e+04
+Maximum force     =  1.1419472e+02 on atom 128
+Norm of force     =  9.4525738e+00
+
+GROMACS reminds you: "No One Could Foresee the End That Came So Fast" (Slayer)
+

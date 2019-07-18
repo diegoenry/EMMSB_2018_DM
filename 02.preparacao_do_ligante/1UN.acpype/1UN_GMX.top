@@ -1,0 +1,15 @@
+; 1UN_GMX.top created by acpype (Rev: 7828) on Fri Sep 30 11:47:53 2016
+
+[ defaults ]
+; nbfunc        comb-rule       gen-pairs       fudgeLJ fudgeQQ
+1               2               yes             0.5     0.8333
+
+; Include 1UN_GMX.itp topology
+#include "1UN_GMX.itp"
+
+[ system ]
+ 1UN
+
+[ molecules ]
+; Compound        nmols
+ 1UN              1     

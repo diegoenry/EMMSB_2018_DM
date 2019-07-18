@@ -1,0 +1,63 @@
+# This file was created Tue Oct  4 17:22:39 2016
+# Created by:
+#                  :-) GROMACS - gmx do_dssp, VERSION 5.1.4 (-:
+# 
+# Executable:   /usr/local/gromacs/bin/gmx
+# Data prefix:  /usr/local/gromacs
+# Command line:
+#   gmx do_dssp -s prod.tpr -f prod.xtc
+# gmx do_dssp is part of G R O M A C S:
+#
+# Gromacs Runs One Microsecond At Cannonball Speeds
+#
+@    title "Secondary Structure"
+@    xaxis  label "Time (ps)"
+@    yaxis  label "Number of Residues"
+@TYPE xy
+@ subtitle "Structure = A-Helix + B-Sheet + B-Bridge + Turn"
+@ view 0.15, 0.15, 0.75, 0.85
+@ legend on
+@ legend box on
+@ legend loctype view
+@ legend 0.78, 0.8
+@ legend length 2
+@ s0 legend "Structure"
+@ s1 legend "Coil"
+@ s2 legend "B-Sheet"
+@ s3 legend "B-Bridge"
+@ s4 legend "Bend"
+@ s5 legend "Turn"
+@ s6 legend "A-Helix"
+@ s7 legend "3-Helix"
+@ s8 legend "Chain_Separator"
+       0   131    38   107     0    29    16     8     0     1
+       2   138    34   112     0    26    18     8     0     1
+       4   136    37   109     0    22    23     4     3     1
+       6   139    31   114     0    25    14    11     3     1
+       8   139    36   109     0    23    19    11     0     1
+      10   135    38   109     0    25    15    11     0     1
+      12   140    33   115     0    22    17     8     3     1
+      14   133    39   109     0    20    16     8     6     1
+      16   135    35   109     0    28    18     8     0     1
+      18   136    34   111     0    25    17     8     3     1
+      20   129    38   106     0    28    15     8     3     1
+      22   134    36   108     2    28    10    14     0     1
+      24   136    37   108     0    25    17    11     0     1
+      26   134    37   108     0    27    15    11     0     1
+      28   127    40   104     0    28    15     8     3     1
+      30   136    38   108     0    24    20     8     0     1
+      32   131    41   103     0    26    20     8     0     1
+      34   131    38   108     0    26    15     8     3     1
+      36   137    35   111     0    26    18     8     0     1
+      38   128    39   105     0    28    15     8     3     1
+      40   132    38   106     0    28    18     8     0     1
+      42   124    38   106     0    30    14     4     6     1
+      44   131    40   104     1    27    18     8     0     1
+      46   131    38   108     0    26    15     8     3     1
+      48   129    37   106     0    29    15     8     3     1
+      50   134    35   111     0    26    15     8     3     1
+      52   135    34   109     0    29    18     8     0     1
+      54   132    35   106     1    28    17     8     3     1
+      56   135    36   112     0    24    15     8     3     1
+# Totals  3868  1065  3141     4   758   478   245    51    29
+# SS %    0.67  0.18  0.54  0.00  0.13  0.08  0.04  0.01  0.01

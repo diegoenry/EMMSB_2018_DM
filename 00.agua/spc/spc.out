@@ -1,0 +1,47 @@
+/home/dgomes/water_md/spc
+processing topology...
+turning H bonds into constraints...
+Analysing residue names:
+There are:   884      Water residues
+Calculating fourier grid dimensions for X Y Z
+Using a fourier grid of 25x25x25, spacing 0.120 0.120 0.120
+This run will generate roughly 0 Mb of data
+processing topology...
+Analysing residue names:
+There are:   884      Water residues
+Calculating fourier grid dimensions for X Y Z
+Using a fourier grid of 25x25x25, spacing 0.120 0.120 0.120
+This run will generate roughly 1 Mb of data
+processing topology...
+turning H bonds into constraints...
+Analysing residue names:
+There are:   884      Water residues
+Determining Verlet buffer for a tolerance of 0.005 kJ/mol/ps at 298.15 K
+Calculated rlist for 1x1 atom pair-list as 1.035 nm, buffer size 0.035 nm
+Set rlist, assuming 4x4 atom pair-list, to 1.000 nm, buffer size 0.000 nm
+Note that mdrun will redetermine rlist based on the actual pair-list setup
+Calculating fourier grid dimensions for X Y Z
+Using a fourier grid of 25x25x25, spacing 0.120 0.120 0.120
+This run will generate roughly 1 Mb of data
+processing topology...
+turning H bonds into constraints...
+Analysing residue names:
+There are:   884      Water residues
+Determining Verlet buffer for a tolerance of 0.005 kJ/mol/ps at 298.15 K
+Calculated rlist for 1x1 atom pair-list as 1.035 nm, buffer size 0.035 nm
+Set rlist, assuming 4x4 atom pair-list, to 1.000 nm, buffer size 0.000 nm
+Note that mdrun will redetermine rlist based on the actual pair-list setup
+Calculating fourier grid dimensions for X Y Z
+Using a fourier grid of 25x25x25, spacing 0.120 0.120 0.120
+This run will generate roughly 4 Mb of data
+processing topology...
+turning H bonds into constraints...
+Analysing residue names:
+There are:   884      Water residues
+Determining Verlet buffer for a tolerance of 0.005 kJ/mol/ps at 298.15 K
+Calculated rlist for 1x1 atom pair-list as 1.034 nm, buffer size 0.034 nm
+Set rlist, assuming 4x4 atom pair-list, to 1.000 nm, buffer size 0.000 nm
+Note that mdrun will redetermine rlist based on the actual pair-list setup
+Calculating fourier grid dimensions for X Y Z
+Using a fourier grid of 28x28x28, spacing 0.108 0.108 0.108
+This run will generate roughly 36 Mb of data

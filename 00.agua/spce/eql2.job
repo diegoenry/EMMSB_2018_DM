@@ -1,0 +1,66 @@
+                      :-) GROMACS - gmx mdrun, 2019.3 (-:
+
+                            GROMACS is written by:
+     Emile Apol      Rossen Apostolov      Paul Bauer     Herman J.C. Berendsen
+    Par Bjelkmar      Christian Blau   Viacheslav Bolnykh     Kevin Boyd    
+ Aldert van Buuren   Rudi van Drunen     Anton Feenstra       Alan Gray     
+  Gerrit Groenhof     Anca Hamuraru    Vincent Hindriksen  M. Eric Irrgang  
+  Aleksei Iupinov   Christoph Junghans     Joe Jordan     Dimitrios Karkoulis
+    Peter Kasson        Jiri Kraus      Carsten Kutzner      Per Larsson    
+  Justin A. Lemkul    Viveca Lindahl    Magnus Lundborg     Erik Marklund   
+    Pascal Merz     Pieter Meulenhoff    Teemu Murtola       Szilard Pall   
+    Sander Pronk      Roland Schulz      Michael Shirts    Alexey Shvetsov  
+   Alfons Sijbers     Peter Tieleman      Jon Vincent      Teemu Virolainen 
+ Christian Wennberg    Maarten Wolf   
+                           and the project leaders:
+        Mark Abraham, Berk Hess, Erik Lindahl, and David van der Spoel
+
+Copyright (c) 1991-2000, University of Groningen, The Netherlands.
+Copyright (c) 2001-2018, The GROMACS development team at
+Uppsala University, Stockholm University and
+the Royal Institute of Technology, Sweden.
+check out http://www.gromacs.org for more information.
+
+GROMACS is free software; you can redistribute it and/or modify it
+under the terms of the GNU Lesser General Public License
+as published by the Free Software Foundation; either version 2.1
+of the License, or (at your option) any later version.
+
+GROMACS:      gmx mdrun, version 2019.3
+Executable:   /home/dgomes/software/gmx2019.3/bin/gmx
+Data prefix:  /home/dgomes/software/gmx2019.3
+Working dir:  /home/dgomes/water_md/spce
+Command line:
+  gmx mdrun -deffnm eql2
+
+
+Back Off! I just backed up eql2.log to ./#eql2.log.3#
+The current CPU can measure timings more accurately than the code in
+gmx mdrun was configured to use. This might affect your simulation
+speed as accurate timings are needed for load-balancing.
+Please consider rebuilding gmx mdrun with the GMX_USE_RDTSCP=ON CMake option.
+Reading file eql2.tpr, VERSION 2019.3 (single precision)
+Changing nstlist from 10 to 40, rlist from 1 to 1.098
+
+
+Using 1 MPI thread
+Using 8 OpenMP threads 
+
+
+Back Off! I just backed up eql2.xtc to ./#eql2.xtc.2#
+
+Back Off! I just backed up eql2.edr to ./#eql2.edr.2#
+starting mdrun 'spce in water'
+500000 steps,   1000.0 ps.
+
+Writing final coordinates.
+
+Back Off! I just backed up eql2.gro to ./#eql2.gro.1#
+
+               Core t (s)   Wall t (s)        (%)
+       Time:     4060.129      507.517      800.0
+                 (ns/day)    (hour/ns)
+Performance:      170.241        0.141
+
+GROMACS reminds you: "It's So Fast It's Slow" (F. Black)
+

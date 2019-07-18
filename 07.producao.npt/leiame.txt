@@ -1,0 +1,3 @@
+gmx grompp -v -f prod.mdp -c ../06.equilibracao/equil.npt.gro -t ../06.equilibracao/equil.npt.cpt  -p ../04.preparacao_da_simulacao/sistema.top -o prod.tpr -n ../06.equilibracao/index.ndx 
+gmx mdrun -v -deffnm prod
+

@@ -1,0 +1,7 @@
+#include "oplsaa.ff/forcefield.itp"
+#include "oplsaa.ff/opc3.itp"
+
+[ System ]
+opc3
+
+[ Molecules ]

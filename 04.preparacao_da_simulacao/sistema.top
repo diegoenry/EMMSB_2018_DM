@@ -1,0 +1,57 @@
+;
+;	File 'proteina.top' was generated
+;	By user: dgomes (501)
+;	On host: sbrubbles
+;	At date: Wed Aug 24 05:56:17 2016
+
+;
+;	This is a standalone topology file
+;
+;	Created by:
+;	                 :-) GROMACS - gmx pdb2gmx, VERSION 5.1.2 (-:
+;	
+;	Executable:   /usr/local/gromacs/bin/gmx
+;	Data prefix:  /usr/local/gromacs
+;	Command line:
+;	  gmx pdb2gmx -f proteina.pdb -p proteina.top -o proteina.gro -ignh
+;	Force field was read from the standard GROMACS share directory.
+;
+
+; Include forcefield parameters
+#include "amber99sb-ildn.ff/forcefield.itp"
+#include "1UN_GMX.itp"
+
+; Include chain topologies
+#include "proteina_Protein.itp"
+#include "proteina_Protein2.itp"
+
+; Include water topology
+#include "amber99sb-ildn.ff/tip3p.itp"
+
+#ifdef POSRES_WATER
+; Position restraint for each water oxygen
+[ position_restraints ]
+;  i funct       fcx        fcy        fcz
+   1    1       1000       1000       1000
+#endif
+
+; 
+
+
+; Include topology for ions
+#include "amber99sb-ildn.ff/ions.itp"
+
+[ system ]
+; Name
+Protein in water
+
+[ molecules ]
+; Compound        #mols
+Protein             1
+Protein2            1
+1UN                 1
+SOL                29
+SOL                22
+SOL         8047
+NA               25
+CL               29

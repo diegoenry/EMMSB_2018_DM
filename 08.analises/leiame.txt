@@ -1,0 +1,22 @@
+#!/bin/bash 
+
+#RMSD 
+gmx rms -s ../07.producao.npt/prod.tpr  -f ../07.producao.npt/prod.xtc <<EOF
+Backbone
+Backbone
+EOF
+
+xmgrace rmsd.xvg
+
+#RMSF
+gmx rmsf -s ../07.producao.npt/prod.tpr  -f ../07.producao.npt/prod.xtc -oq bfactor -fit -res <<EOF 
+Backbone
+EOF
+
+xmgrace rmsf.xvg 
+
+#Fator Beta
+pymol bfactor.pdb 
+
+
+

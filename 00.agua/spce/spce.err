@@ -1,0 +1,1774 @@
+gmx: error while loading shared libraries: libopenblas.so.0: cannot open shared object file: No such file or directory
+gmx: error while loading shared libraries: libopenblas.so.0: cannot open shared object file: No such file or directory
+gmx: error while loading shared libraries: libopenblas.so.0: cannot open shared object file: No such file or directory
+gmx: error while loading shared libraries: libopenblas.so.0: cannot open shared object file: No such file or directory
+gmx: error while loading shared libraries: libopenblas.so.0: cannot open shared object file: No such file or directory
+gmx: /lib64/libstdc++.so.6: version `GLIBCXX_3.4.21' not found (required by gmx)
+gmx: /lib64/libstdc++.so.6: version `GLIBCXX_3.4.20' not found (required by /home/dgomes/software/gmx2019.3/bin/../lib64/libgromacs.so.4)
+gmx: /lib64/libstdc++.so.6: version `CXXABI_1.3.8' not found (required by /home/dgomes/software/gmx2019.3/bin/../lib64/libgromacs.so.4)
+gmx: /lib64/libstdc++.so.6: version `CXXABI_1.3.11' not found (required by /home/dgomes/software/gmx2019.3/bin/../lib64/libgromacs.so.4)
+gmx: /lib64/libstdc++.so.6: version `GLIBCXX_3.4.21' not found (required by /home/dgomes/software/gmx2019.3/bin/../lib64/libgromacs.so.4)
+gmx: /lib64/libstdc++.so.6: version `GLIBCXX_3.4.21' not found (required by gmx)
+gmx: /lib64/libstdc++.so.6: version `GLIBCXX_3.4.20' not found (required by /home/dgomes/software/gmx2019.3/bin/../lib64/libgromacs.so.4)
+gmx: /lib64/libstdc++.so.6: version `CXXABI_1.3.8' not found (required by /home/dgomes/software/gmx2019.3/bin/../lib64/libgromacs.so.4)
+gmx: /lib64/libstdc++.so.6: version `CXXABI_1.3.11' not found (required by /home/dgomes/software/gmx2019.3/bin/../lib64/libgromacs.so.4)
+gmx: /lib64/libstdc++.so.6: version `GLIBCXX_3.4.21' not found (required by /home/dgomes/software/gmx2019.3/bin/../lib64/libgromacs.so.4)
+gmx: /lib64/libstdc++.so.6: version `GLIBCXX_3.4.21' not found (required by gmx)
+gmx: /lib64/libstdc++.so.6: version `GLIBCXX_3.4.20' not found (required by /home/dgomes/software/gmx2019.3/bin/../lib64/libgromacs.so.4)
+gmx: /lib64/libstdc++.so.6: version `CXXABI_1.3.8' not found (required by /home/dgomes/software/gmx2019.3/bin/../lib64/libgromacs.so.4)
+gmx: /lib64/libstdc++.so.6: version `CXXABI_1.3.11' not found (required by /home/dgomes/software/gmx2019.3/bin/../lib64/libgromacs.so.4)
+gmx: /lib64/libstdc++.so.6: version `GLIBCXX_3.4.21' not found (required by /home/dgomes/software/gmx2019.3/bin/../lib64/libgromacs.so.4)
+gmx: /lib64/libstdc++.so.6: version `GLIBCXX_3.4.21' not found (required by gmx)
+gmx: /lib64/libstdc++.so.6: version `GLIBCXX_3.4.20' not found (required by /home/dgomes/software/gmx2019.3/bin/../lib64/libgromacs.so.4)
+gmx: /lib64/libstdc++.so.6: version `CXXABI_1.3.8' not found (required by /home/dgomes/software/gmx2019.3/bin/../lib64/libgromacs.so.4)
+gmx: /lib64/libstdc++.so.6: version `CXXABI_1.3.11' not found (required by /home/dgomes/software/gmx2019.3/bin/../lib64/libgromacs.so.4)
+gmx: /lib64/libstdc++.so.6: version `GLIBCXX_3.4.21' not found (required by /home/dgomes/software/gmx2019.3/bin/../lib64/libgromacs.so.4)
+gmx: /lib64/libstdc++.so.6: version `GLIBCXX_3.4.21' not found (required by gmx)
+gmx: /lib64/libstdc++.so.6: version `GLIBCXX_3.4.20' not found (required by /home/dgomes/software/gmx2019.3/bin/../lib64/libgromacs.so.4)
+gmx: /lib64/libstdc++.so.6: version `CXXABI_1.3.8' not found (required by /home/dgomes/software/gmx2019.3/bin/../lib64/libgromacs.so.4)
+gmx: /lib64/libstdc++.so.6: version `CXXABI_1.3.11' not found (required by /home/dgomes/software/gmx2019.3/bin/../lib64/libgromacs.so.4)
+gmx: /lib64/libstdc++.so.6: version `GLIBCXX_3.4.21' not found (required by /home/dgomes/software/gmx2019.3/bin/../lib64/libgromacs.so.4)
+                      :-) GROMACS - gmx grompp, 2019.3 (-:
+
+                            GROMACS is written by:
+     Emile Apol      Rossen Apostolov      Paul Bauer     Herman J.C. Berendsen
+    Par Bjelkmar      Christian Blau   Viacheslav Bolnykh     Kevin Boyd    
+ Aldert van Buuren   Rudi van Drunen     Anton Feenstra       Alan Gray     
+  Gerrit Groenhof     Anca Hamuraru    Vincent Hindriksen  M. Eric Irrgang  
+  Aleksei Iupinov   Christoph Junghans     Joe Jordan     Dimitrios Karkoulis
+    Peter Kasson        Jiri Kraus      Carsten Kutzner      Per Larsson    
+  Justin A. Lemkul    Viveca Lindahl    Magnus Lundborg     Erik Marklund   
+    Pascal Merz     Pieter Meulenhoff    Teemu Murtola       Szilard Pall   
+    Sander Pronk      Roland Schulz      Michael Shirts    Alexey Shvetsov  
+   Alfons Sijbers     Peter Tieleman      Jon Vincent      Teemu Virolainen 
+ Christian Wennberg    Maarten Wolf   
+                           and the project leaders:
+        Mark Abraham, Berk Hess, Erik Lindahl, and David van der Spoel
+
+Copyright (c) 1991-2000, University of Groningen, The Netherlands.
+Copyright (c) 2001-2018, The GROMACS development team at
+Uppsala University, Stockholm University and
+the Royal Institute of Technology, Sweden.
+check out http://www.gromacs.org for more information.
+
+GROMACS is free software; you can redistribute it and/or modify it
+under the terms of the GNU Lesser General Public License
+as published by the Free Software Foundation; either version 2.1
+of the License, or (at your option) any later version.
+
+GROMACS:      gmx grompp, version 2019.3
+Executable:   /home/dgomes/software/gmx2019.3/bin/gmx
+Data prefix:  /home/dgomes/software/gmx2019.3
+Working dir:  /home/dgomes/water_md/spce
+Command line:
+  gmx grompp -maxwarn 1 -v -f /home/dgomes/water_md//mdp/min.mdp -c box.gro -p topol.top -o min.tpr
+
+checking input for internal consistency...
+Setting the LD random seed to 1322367844
+Generated 330891 of the 330891 non-bonded parameter combinations
+Generating 1-4 interactions: fudge = 0.5
+Generated 330891 of the 330891 1-4 parameter combinations
+Excluding 2 bonded neighbours molecule type 'SOL'
+Excluding 2 bonded neighbours molecule type 'SOL'
+processing coordinates...
+
+-------------------------------------------------------
+Program:     gmx grompp, version 2019.3
+Source file: src/gromacs/gmxpreprocess/grompp.cpp (line 610)
+
+Fatal error:
+number of coordinates in coordinate file (box.gro, 2652)
+             does not match topology (topol.top, 5304)
+
+For more information and tips for troubleshooting, please check the GROMACS
+website at http://www.gromacs.org/Documentation/Errors
+-------------------------------------------------------
+                      :-) GROMACS - gmx grompp, 2019.3 (-:
+
+                            GROMACS is written by:
+     Emile Apol      Rossen Apostolov      Paul Bauer     Herman J.C. Berendsen
+    Par Bjelkmar      Christian Blau   Viacheslav Bolnykh     Kevin Boyd    
+ Aldert van Buuren   Rudi van Drunen     Anton Feenstra       Alan Gray     
+  Gerrit Groenhof     Anca Hamuraru    Vincent Hindriksen  M. Eric Irrgang  
+  Aleksei Iupinov   Christoph Junghans     Joe Jordan     Dimitrios Karkoulis
+    Peter Kasson        Jiri Kraus      Carsten Kutzner      Per Larsson    
+  Justin A. Lemkul    Viveca Lindahl    Magnus Lundborg     Erik Marklund   
+    Pascal Merz     Pieter Meulenhoff    Teemu Murtola       Szilard Pall   
+    Sander Pronk      Roland Schulz      Michael Shirts    Alexey Shvetsov  
+   Alfons Sijbers     Peter Tieleman      Jon Vincent      Teemu Virolainen 
+ Christian Wennberg    Maarten Wolf   
+                           and the project leaders:
+        Mark Abraham, Berk Hess, Erik Lindahl, and David van der Spoel
+
+Copyright (c) 1991-2000, University of Groningen, The Netherlands.
+Copyright (c) 2001-2018, The GROMACS development team at
+Uppsala University, Stockholm University and
+the Royal Institute of Technology, Sweden.
+check out http://www.gromacs.org for more information.
+
+GROMACS is free software; you can redistribute it and/or modify it
+under the terms of the GNU Lesser General Public License
+as published by the Free Software Foundation; either version 2.1
+of the License, or (at your option) any later version.
+
+GROMACS:      gmx grompp, version 2019.3
+Executable:   /home/dgomes/software/gmx2019.3/bin/gmx
+Data prefix:  /home/dgomes/software/gmx2019.3
+Working dir:  /home/dgomes/water_md/spce
+Command line:
+  gmx grompp -maxwarn 1 -v -f /home/dgomes/water_md//mdp/min2.mdp -c min.gro -p topol.top -o min2.tpr -t min.trr
+
+
+-------------------------------------------------------
+Program:     gmx grompp, version 2019.3
+Source file: src/gromacs/commandline/cmdlineparser.cpp (line 276)
+Function:    void gmx::CommandLineParser::parse(int*, char**)
+
+Error in user input:
+Invalid command-line options
+  In command-line option -c
+    File 'min.gro' does not exist or is not accessible.
+    The file could not be opened.
+      Reason: No such file or directory
+      (call to fopen() returned error code 2)
+  In command-line option -t
+    File 'min.trr' does not exist or is not accessible.
+    The file could not be opened.
+      Reason: No such file or directory
+      (call to fopen() returned error code 2)
+
+For more information and tips for troubleshooting, please check the GROMACS
+website at http://www.gromacs.org/Documentation/Errors
+-------------------------------------------------------
+                      :-) GROMACS - gmx grompp, 2019.3 (-:
+
+                            GROMACS is written by:
+     Emile Apol      Rossen Apostolov      Paul Bauer     Herman J.C. Berendsen
+    Par Bjelkmar      Christian Blau   Viacheslav Bolnykh     Kevin Boyd    
+ Aldert van Buuren   Rudi van Drunen     Anton Feenstra       Alan Gray     
+  Gerrit Groenhof     Anca Hamuraru    Vincent Hindriksen  M. Eric Irrgang  
+  Aleksei Iupinov   Christoph Junghans     Joe Jordan     Dimitrios Karkoulis
+    Peter Kasson        Jiri Kraus      Carsten Kutzner      Per Larsson    
+  Justin A. Lemkul    Viveca Lindahl    Magnus Lundborg     Erik Marklund   
+    Pascal Merz     Pieter Meulenhoff    Teemu Murtola       Szilard Pall   
+    Sander Pronk      Roland Schulz      Michael Shirts    Alexey Shvetsov  
+   Alfons Sijbers     Peter Tieleman      Jon Vincent      Teemu Virolainen 
+ Christian Wennberg    Maarten Wolf   
+                           and the project leaders:
+        Mark Abraham, Berk Hess, Erik Lindahl, and David van der Spoel
+
+Copyright (c) 1991-2000, University of Groningen, The Netherlands.
+Copyright (c) 2001-2018, The GROMACS development team at
+Uppsala University, Stockholm University and
+the Royal Institute of Technology, Sweden.
+check out http://www.gromacs.org for more information.
+
+GROMACS is free software; you can redistribute it and/or modify it
+under the terms of the GNU Lesser General Public License
+as published by the Free Software Foundation; either version 2.1
+of the License, or (at your option) any later version.
+
+GROMACS:      gmx grompp, version 2019.3
+Executable:   /home/dgomes/software/gmx2019.3/bin/gmx
+Data prefix:  /home/dgomes/software/gmx2019.3
+Working dir:  /home/dgomes/water_md/spce
+Command line:
+  gmx grompp -maxwarn 1 -v -f /home/dgomes/water_md//mdp/eql.mdp -c min2.gro -p topol.top -o eql.tpr -t min2.trr
+
+
+-------------------------------------------------------
+Program:     gmx grompp, version 2019.3
+Source file: src/gromacs/commandline/cmdlineparser.cpp (line 276)
+Function:    void gmx::CommandLineParser::parse(int*, char**)
+
+Error in user input:
+Invalid command-line options
+  In command-line option -c
+    File 'min2.gro' does not exist or is not accessible.
+    The file could not be opened.
+      Reason: No such file or directory
+      (call to fopen() returned error code 2)
+  In command-line option -t
+    File 'min2.trr' does not exist or is not accessible.
+    The file could not be opened.
+      Reason: No such file or directory
+      (call to fopen() returned error code 2)
+
+For more information and tips for troubleshooting, please check the GROMACS
+website at http://www.gromacs.org/Documentation/Errors
+-------------------------------------------------------
+                      :-) GROMACS - gmx grompp, 2019.3 (-:
+
+                            GROMACS is written by:
+     Emile Apol      Rossen Apostolov      Paul Bauer     Herman J.C. Berendsen
+    Par Bjelkmar      Christian Blau   Viacheslav Bolnykh     Kevin Boyd    
+ Aldert van Buuren   Rudi van Drunen     Anton Feenstra       Alan Gray     
+  Gerrit Groenhof     Anca Hamuraru    Vincent Hindriksen  M. Eric Irrgang  
+  Aleksei Iupinov   Christoph Junghans     Joe Jordan     Dimitrios Karkoulis
+    Peter Kasson        Jiri Kraus      Carsten Kutzner      Per Larsson    
+  Justin A. Lemkul    Viveca Lindahl    Magnus Lundborg     Erik Marklund   
+    Pascal Merz     Pieter Meulenhoff    Teemu Murtola       Szilard Pall   
+    Sander Pronk      Roland Schulz      Michael Shirts    Alexey Shvetsov  
+   Alfons Sijbers     Peter Tieleman      Jon Vincent      Teemu Virolainen 
+ Christian Wennberg    Maarten Wolf   
+                           and the project leaders:
+        Mark Abraham, Berk Hess, Erik Lindahl, and David van der Spoel
+
+Copyright (c) 1991-2000, University of Groningen, The Netherlands.
+Copyright (c) 2001-2018, The GROMACS development team at
+Uppsala University, Stockholm University and
+the Royal Institute of Technology, Sweden.
+check out http://www.gromacs.org for more information.
+
+GROMACS is free software; you can redistribute it and/or modify it
+under the terms of the GNU Lesser General Public License
+as published by the Free Software Foundation; either version 2.1
+of the License, or (at your option) any later version.
+
+GROMACS:      gmx grompp, version 2019.3
+Executable:   /home/dgomes/software/gmx2019.3/bin/gmx
+Data prefix:  /home/dgomes/software/gmx2019.3
+Working dir:  /home/dgomes/water_md/spce
+Command line:
+  gmx grompp -maxwarn 1 -v -f /home/dgomes/water_md//mdp/eql2.mdp -c eql.gro -p topol.top -o eql2.tpr -t eql.cpt
+
+
+-------------------------------------------------------
+Program:     gmx grompp, version 2019.3
+Source file: src/gromacs/commandline/cmdlineparser.cpp (line 276)
+Function:    void gmx::CommandLineParser::parse(int*, char**)
+
+Error in user input:
+Invalid command-line options
+  In command-line option -c
+    File 'eql.gro' does not exist or is not accessible.
+    The file could not be opened.
+      Reason: No such file or directory
+      (call to fopen() returned error code 2)
+  In command-line option -t
+    File 'eql.cpt' does not exist or is not accessible.
+    The file could not be opened.
+      Reason: No such file or directory
+      (call to fopen() returned error code 2)
+
+For more information and tips for troubleshooting, please check the GROMACS
+website at http://www.gromacs.org/Documentation/Errors
+-------------------------------------------------------
+                      :-) GROMACS - gmx grompp, 2019.3 (-:
+
+                            GROMACS is written by:
+     Emile Apol      Rossen Apostolov      Paul Bauer     Herman J.C. Berendsen
+    Par Bjelkmar      Christian Blau   Viacheslav Bolnykh     Kevin Boyd    
+ Aldert van Buuren   Rudi van Drunen     Anton Feenstra       Alan Gray     
+  Gerrit Groenhof     Anca Hamuraru    Vincent Hindriksen  M. Eric Irrgang  
+  Aleksei Iupinov   Christoph Junghans     Joe Jordan     Dimitrios Karkoulis
+    Peter Kasson        Jiri Kraus      Carsten Kutzner      Per Larsson    
+  Justin A. Lemkul    Viveca Lindahl    Magnus Lundborg     Erik Marklund   
+    Pascal Merz     Pieter Meulenhoff    Teemu Murtola       Szilard Pall   
+    Sander Pronk      Roland Schulz      Michael Shirts    Alexey Shvetsov  
+   Alfons Sijbers     Peter Tieleman      Jon Vincent      Teemu Virolainen 
+ Christian Wennberg    Maarten Wolf   
+                           and the project leaders:
+        Mark Abraham, Berk Hess, Erik Lindahl, and David van der Spoel
+
+Copyright (c) 1991-2000, University of Groningen, The Netherlands.
+Copyright (c) 2001-2018, The GROMACS development team at
+Uppsala University, Stockholm University and
+the Royal Institute of Technology, Sweden.
+check out http://www.gromacs.org for more information.
+
+GROMACS is free software; you can redistribute it and/or modify it
+under the terms of the GNU Lesser General Public License
+as published by the Free Software Foundation; either version 2.1
+of the License, or (at your option) any later version.
+
+GROMACS:      gmx grompp, version 2019.3
+Executable:   /home/dgomes/software/gmx2019.3/bin/gmx
+Data prefix:  /home/dgomes/software/gmx2019.3
+Working dir:  /home/dgomes/water_md/spce
+Command line:
+  gmx grompp -maxwarn 1 -v -f /home/dgomes/water_md//mdp/prd.mdp -c eql2.gro -p topol.top -o prd.tpr -t eql2.cpt
+
+
+-------------------------------------------------------
+Program:     gmx grompp, version 2019.3
+Source file: src/gromacs/commandline/cmdlineparser.cpp (line 276)
+Function:    void gmx::CommandLineParser::parse(int*, char**)
+
+Error in user input:
+Invalid command-line options
+  In command-line option -c
+    File 'eql2.gro' does not exist or is not accessible.
+    The file could not be opened.
+      Reason: No such file or directory
+      (call to fopen() returned error code 2)
+  In command-line option -t
+    File 'eql2.cpt' does not exist or is not accessible.
+    The file could not be opened.
+      Reason: No such file or directory
+      (call to fopen() returned error code 2)
+
+For more information and tips for troubleshooting, please check the GROMACS
+website at http://www.gromacs.org/Documentation/Errors
+-------------------------------------------------------
+                      :-) GROMACS - gmx grompp, 2019.3 (-:
+
+                            GROMACS is written by:
+     Emile Apol      Rossen Apostolov      Paul Bauer     Herman J.C. Berendsen
+    Par Bjelkmar      Christian Blau   Viacheslav Bolnykh     Kevin Boyd    
+ Aldert van Buuren   Rudi van Drunen     Anton Feenstra       Alan Gray     
+  Gerrit Groenhof     Anca Hamuraru    Vincent Hindriksen  M. Eric Irrgang  
+  Aleksei Iupinov   Christoph Junghans     Joe Jordan     Dimitrios Karkoulis
+    Peter Kasson        Jiri Kraus      Carsten Kutzner      Per Larsson    
+  Justin A. Lemkul    Viveca Lindahl    Magnus Lundborg     Erik Marklund   
+    Pascal Merz     Pieter Meulenhoff    Teemu Murtola       Szilard Pall   
+    Sander Pronk      Roland Schulz      Michael Shirts    Alexey Shvetsov  
+   Alfons Sijbers     Peter Tieleman      Jon Vincent      Teemu Virolainen 
+ Christian Wennberg    Maarten Wolf   
+                           and the project leaders:
+        Mark Abraham, Berk Hess, Erik Lindahl, and David van der Spoel
+
+Copyright (c) 1991-2000, University of Groningen, The Netherlands.
+Copyright (c) 2001-2018, The GROMACS development team at
+Uppsala University, Stockholm University and
+the Royal Institute of Technology, Sweden.
+check out http://www.gromacs.org for more information.
+
+GROMACS is free software; you can redistribute it and/or modify it
+under the terms of the GNU Lesser General Public License
+as published by the Free Software Foundation; either version 2.1
+of the License, or (at your option) any later version.
+
+GROMACS:      gmx grompp, version 2019.3
+Executable:   /home/dgomes/software/gmx2019.3/bin/gmx
+Data prefix:  /home/dgomes/software/gmx2019.3
+Working dir:  /home/dgomes/water_md/spce
+Command line:
+  gmx grompp -maxwarn 1 -v -f /home/dgomes/water_md//mdp/min.mdp -c box.gro -p topol.top -o min.tpr
+
+checking input for internal consistency...
+Setting the LD random seed to 1632573900
+Generated 330891 of the 330891 non-bonded parameter combinations
+Generating 1-4 interactions: fudge = 0.5
+Generated 330891 of the 330891 1-4 parameter combinations
+Excluding 2 bonded neighbours molecule type 'SOL'
+Excluding 2 bonded neighbours molecule type 'SOL'
+processing coordinates...
+
+-------------------------------------------------------
+Program:     gmx grompp, version 2019.3
+Source file: src/gromacs/gmxpreprocess/grompp.cpp (line 610)
+
+Fatal error:
+number of coordinates in coordinate file (box.gro, 2652)
+             does not match topology (topol.top, 5304)
+
+For more information and tips for troubleshooting, please check the GROMACS
+website at http://www.gromacs.org/Documentation/Errors
+-------------------------------------------------------
+                      :-) GROMACS - gmx grompp, 2019.3 (-:
+
+                            GROMACS is written by:
+     Emile Apol      Rossen Apostolov      Paul Bauer     Herman J.C. Berendsen
+    Par Bjelkmar      Christian Blau   Viacheslav Bolnykh     Kevin Boyd    
+ Aldert van Buuren   Rudi van Drunen     Anton Feenstra       Alan Gray     
+  Gerrit Groenhof     Anca Hamuraru    Vincent Hindriksen  M. Eric Irrgang  
+  Aleksei Iupinov   Christoph Junghans     Joe Jordan     Dimitrios Karkoulis
+    Peter Kasson        Jiri Kraus      Carsten Kutzner      Per Larsson    
+  Justin A. Lemkul    Viveca Lindahl    Magnus Lundborg     Erik Marklund   
+    Pascal Merz     Pieter Meulenhoff    Teemu Murtola       Szilard Pall   
+    Sander Pronk      Roland Schulz      Michael Shirts    Alexey Shvetsov  
+   Alfons Sijbers     Peter Tieleman      Jon Vincent      Teemu Virolainen 
+ Christian Wennberg    Maarten Wolf   
+                           and the project leaders:
+        Mark Abraham, Berk Hess, Erik Lindahl, and David van der Spoel
+
+Copyright (c) 1991-2000, University of Groningen, The Netherlands.
+Copyright (c) 2001-2018, The GROMACS development team at
+Uppsala University, Stockholm University and
+the Royal Institute of Technology, Sweden.
+check out http://www.gromacs.org for more information.
+
+GROMACS is free software; you can redistribute it and/or modify it
+under the terms of the GNU Lesser General Public License
+as published by the Free Software Foundation; either version 2.1
+of the License, or (at your option) any later version.
+
+GROMACS:      gmx grompp, version 2019.3
+Executable:   /home/dgomes/software/gmx2019.3/bin/gmx
+Data prefix:  /home/dgomes/software/gmx2019.3
+Working dir:  /home/dgomes/water_md/spce
+Command line:
+  gmx grompp -maxwarn 1 -v -f /home/dgomes/water_md//mdp/min2.mdp -c min.gro -p topol.top -o min2.tpr -t min.trr
+
+
+-------------------------------------------------------
+Program:     gmx grompp, version 2019.3
+Source file: src/gromacs/commandline/cmdlineparser.cpp (line 276)
+Function:    void gmx::CommandLineParser::parse(int*, char**)
+
+Error in user input:
+Invalid command-line options
+  In command-line option -c
+    File 'min.gro' does not exist or is not accessible.
+    The file could not be opened.
+      Reason: No such file or directory
+      (call to fopen() returned error code 2)
+  In command-line option -t
+    File 'min.trr' does not exist or is not accessible.
+    The file could not be opened.
+      Reason: No such file or directory
+      (call to fopen() returned error code 2)
+
+For more information and tips for troubleshooting, please check the GROMACS
+website at http://www.gromacs.org/Documentation/Errors
+-------------------------------------------------------
+                      :-) GROMACS - gmx grompp, 2019.3 (-:
+
+                            GROMACS is written by:
+     Emile Apol      Rossen Apostolov      Paul Bauer     Herman J.C. Berendsen
+    Par Bjelkmar      Christian Blau   Viacheslav Bolnykh     Kevin Boyd    
+ Aldert van Buuren   Rudi van Drunen     Anton Feenstra       Alan Gray     
+  Gerrit Groenhof     Anca Hamuraru    Vincent Hindriksen  M. Eric Irrgang  
+  Aleksei Iupinov   Christoph Junghans     Joe Jordan     Dimitrios Karkoulis
+    Peter Kasson        Jiri Kraus      Carsten Kutzner      Per Larsson    
+  Justin A. Lemkul    Viveca Lindahl    Magnus Lundborg     Erik Marklund   
+    Pascal Merz     Pieter Meulenhoff    Teemu Murtola       Szilard Pall   
+    Sander Pronk      Roland Schulz      Michael Shirts    Alexey Shvetsov  
+   Alfons Sijbers     Peter Tieleman      Jon Vincent      Teemu Virolainen 
+ Christian Wennberg    Maarten Wolf   
+                           and the project leaders:
+        Mark Abraham, Berk Hess, Erik Lindahl, and David van der Spoel
+
+Copyright (c) 1991-2000, University of Groningen, The Netherlands.
+Copyright (c) 2001-2018, The GROMACS development team at
+Uppsala University, Stockholm University and
+the Royal Institute of Technology, Sweden.
+check out http://www.gromacs.org for more information.
+
+GROMACS is free software; you can redistribute it and/or modify it
+under the terms of the GNU Lesser General Public License
+as published by the Free Software Foundation; either version 2.1
+of the License, or (at your option) any later version.
+
+GROMACS:      gmx grompp, version 2019.3
+Executable:   /home/dgomes/software/gmx2019.3/bin/gmx
+Data prefix:  /home/dgomes/software/gmx2019.3
+Working dir:  /home/dgomes/water_md/spce
+Command line:
+  gmx grompp -maxwarn 1 -v -f /home/dgomes/water_md//mdp/eql.mdp -c min2.gro -p topol.top -o eql.tpr -t min2.trr
+
+
+-------------------------------------------------------
+Program:     gmx grompp, version 2019.3
+Source file: src/gromacs/commandline/cmdlineparser.cpp (line 276)
+Function:    void gmx::CommandLineParser::parse(int*, char**)
+
+Error in user input:
+Invalid command-line options
+  In command-line option -c
+    File 'min2.gro' does not exist or is not accessible.
+    The file could not be opened.
+      Reason: No such file or directory
+      (call to fopen() returned error code 2)
+  In command-line option -t
+    File 'min2.trr' does not exist or is not accessible.
+    The file could not be opened.
+      Reason: No such file or directory
+      (call to fopen() returned error code 2)
+
+For more information and tips for troubleshooting, please check the GROMACS
+website at http://www.gromacs.org/Documentation/Errors
+-------------------------------------------------------
+                      :-) GROMACS - gmx grompp, 2019.3 (-:
+
+                            GROMACS is written by:
+     Emile Apol      Rossen Apostolov      Paul Bauer     Herman J.C. Berendsen
+    Par Bjelkmar      Christian Blau   Viacheslav Bolnykh     Kevin Boyd    
+ Aldert van Buuren   Rudi van Drunen     Anton Feenstra       Alan Gray     
+  Gerrit Groenhof     Anca Hamuraru    Vincent Hindriksen  M. Eric Irrgang  
+  Aleksei Iupinov   Christoph Junghans     Joe Jordan     Dimitrios Karkoulis
+    Peter Kasson        Jiri Kraus      Carsten Kutzner      Per Larsson    
+  Justin A. Lemkul    Viveca Lindahl    Magnus Lundborg     Erik Marklund   
+    Pascal Merz     Pieter Meulenhoff    Teemu Murtola       Szilard Pall   
+    Sander Pronk      Roland Schulz      Michael Shirts    Alexey Shvetsov  
+   Alfons Sijbers     Peter Tieleman      Jon Vincent      Teemu Virolainen 
+ Christian Wennberg    Maarten Wolf   
+                           and the project leaders:
+        Mark Abraham, Berk Hess, Erik Lindahl, and David van der Spoel
+
+Copyright (c) 1991-2000, University of Groningen, The Netherlands.
+Copyright (c) 2001-2018, The GROMACS development team at
+Uppsala University, Stockholm University and
+the Royal Institute of Technology, Sweden.
+check out http://www.gromacs.org for more information.
+
+GROMACS is free software; you can redistribute it and/or modify it
+under the terms of the GNU Lesser General Public License
+as published by the Free Software Foundation; either version 2.1
+of the License, or (at your option) any later version.
+
+GROMACS:      gmx grompp, version 2019.3
+Executable:   /home/dgomes/software/gmx2019.3/bin/gmx
+Data prefix:  /home/dgomes/software/gmx2019.3
+Working dir:  /home/dgomes/water_md/spce
+Command line:
+  gmx grompp -maxwarn 1 -v -f /home/dgomes/water_md//mdp/eql2.mdp -c eql.gro -p topol.top -o eql2.tpr -t eql.cpt
+
+
+-------------------------------------------------------
+Program:     gmx grompp, version 2019.3
+Source file: src/gromacs/commandline/cmdlineparser.cpp (line 276)
+Function:    void gmx::CommandLineParser::parse(int*, char**)
+
+Error in user input:
+Invalid command-line options
+  In command-line option -c
+    File 'eql.gro' does not exist or is not accessible.
+    The file could not be opened.
+      Reason: No such file or directory
+      (call to fopen() returned error code 2)
+  In command-line option -t
+    File 'eql.cpt' does not exist or is not accessible.
+    The file could not be opened.
+      Reason: No such file or directory
+      (call to fopen() returned error code 2)
+
+For more information and tips for troubleshooting, please check the GROMACS
+website at http://www.gromacs.org/Documentation/Errors
+-------------------------------------------------------
+                      :-) GROMACS - gmx grompp, 2019.3 (-:
+
+                            GROMACS is written by:
+     Emile Apol      Rossen Apostolov      Paul Bauer     Herman J.C. Berendsen
+    Par Bjelkmar      Christian Blau   Viacheslav Bolnykh     Kevin Boyd    
+ Aldert van Buuren   Rudi van Drunen     Anton Feenstra       Alan Gray     
+  Gerrit Groenhof     Anca Hamuraru    Vincent Hindriksen  M. Eric Irrgang  
+  Aleksei Iupinov   Christoph Junghans     Joe Jordan     Dimitrios Karkoulis
+    Peter Kasson        Jiri Kraus      Carsten Kutzner      Per Larsson    
+  Justin A. Lemkul    Viveca Lindahl    Magnus Lundborg     Erik Marklund   
+    Pascal Merz     Pieter Meulenhoff    Teemu Murtola       Szilard Pall   
+    Sander Pronk      Roland Schulz      Michael Shirts    Alexey Shvetsov  
+   Alfons Sijbers     Peter Tieleman      Jon Vincent      Teemu Virolainen 
+ Christian Wennberg    Maarten Wolf   
+                           and the project leaders:
+        Mark Abraham, Berk Hess, Erik Lindahl, and David van der Spoel
+
+Copyright (c) 1991-2000, University of Groningen, The Netherlands.
+Copyright (c) 2001-2018, The GROMACS development team at
+Uppsala University, Stockholm University and
+the Royal Institute of Technology, Sweden.
+check out http://www.gromacs.org for more information.
+
+GROMACS is free software; you can redistribute it and/or modify it
+under the terms of the GNU Lesser General Public License
+as published by the Free Software Foundation; either version 2.1
+of the License, or (at your option) any later version.
+
+GROMACS:      gmx grompp, version 2019.3
+Executable:   /home/dgomes/software/gmx2019.3/bin/gmx
+Data prefix:  /home/dgomes/software/gmx2019.3
+Working dir:  /home/dgomes/water_md/spce
+Command line:
+  gmx grompp -maxwarn 1 -v -f /home/dgomes/water_md//mdp/prd.mdp -c eql2.gro -p topol.top -o prd.tpr -t eql2.cpt
+
+
+-------------------------------------------------------
+Program:     gmx grompp, version 2019.3
+Source file: src/gromacs/commandline/cmdlineparser.cpp (line 276)
+Function:    void gmx::CommandLineParser::parse(int*, char**)
+
+Error in user input:
+Invalid command-line options
+  In command-line option -c
+    File 'eql2.gro' does not exist or is not accessible.
+    The file could not be opened.
+      Reason: No such file or directory
+      (call to fopen() returned error code 2)
+  In command-line option -t
+    File 'eql2.cpt' does not exist or is not accessible.
+    The file could not be opened.
+      Reason: No such file or directory
+      (call to fopen() returned error code 2)
+
+For more information and tips for troubleshooting, please check the GROMACS
+website at http://www.gromacs.org/Documentation/Errors
+-------------------------------------------------------
+                      :-) GROMACS - gmx grompp, 2019.3 (-:
+
+                            GROMACS is written by:
+     Emile Apol      Rossen Apostolov      Paul Bauer     Herman J.C. Berendsen
+    Par Bjelkmar      Christian Blau   Viacheslav Bolnykh     Kevin Boyd    
+ Aldert van Buuren   Rudi van Drunen     Anton Feenstra       Alan Gray     
+  Gerrit Groenhof     Anca Hamuraru    Vincent Hindriksen  M. Eric Irrgang  
+  Aleksei Iupinov   Christoph Junghans     Joe Jordan     Dimitrios Karkoulis
+    Peter Kasson        Jiri Kraus      Carsten Kutzner      Per Larsson    
+  Justin A. Lemkul    Viveca Lindahl    Magnus Lundborg     Erik Marklund   
+    Pascal Merz     Pieter Meulenhoff    Teemu Murtola       Szilard Pall   
+    Sander Pronk      Roland Schulz      Michael Shirts    Alexey Shvetsov  
+   Alfons Sijbers     Peter Tieleman      Jon Vincent      Teemu Virolainen 
+ Christian Wennberg    Maarten Wolf   
+                           and the project leaders:
+        Mark Abraham, Berk Hess, Erik Lindahl, and David van der Spoel
+
+Copyright (c) 1991-2000, University of Groningen, The Netherlands.
+Copyright (c) 2001-2018, The GROMACS development team at
+Uppsala University, Stockholm University and
+the Royal Institute of Technology, Sweden.
+check out http://www.gromacs.org for more information.
+
+GROMACS is free software; you can redistribute it and/or modify it
+under the terms of the GNU Lesser General Public License
+as published by the Free Software Foundation; either version 2.1
+of the License, or (at your option) any later version.
+
+GROMACS:      gmx grompp, version 2019.3
+Executable:   /home/dgomes/software/gmx2019.3/bin/gmx
+Data prefix:  /home/dgomes/software/gmx2019.3
+Working dir:  /home/dgomes/water_md/spce
+Command line:
+  gmx grompp -maxwarn 1 -v -f /home/dgomes/water_md//mdp/min.mdp -c box.gro -p topol.top -o min.tpr
+
+checking input for internal consistency...
+Setting the LD random seed to -154586143
+Generated 330891 of the 330891 non-bonded parameter combinations
+Generating 1-4 interactions: fudge = 0.5
+Generated 330891 of the 330891 1-4 parameter combinations
+Excluding 2 bonded neighbours molecule type 'SOL'
+processing coordinates...
+double-checking input for internal consistency...
+Removing all charge groups because cutoff-scheme=Verlet
+renumbering atomtypes...
+converting bonded parameters...
+initialising group options...
+processing index file...
+Making dummy/rest group for T-Coupling containing 2652 elements
+Making dummy/rest group for Acceleration containing 2652 elements
+Making dummy/rest group for Freeze containing 2652 elements
+Making dummy/rest group for Energy Mon. containing 2652 elements
+Making dummy/rest group for VCM containing 2652 elements
+Number of degrees of freedom in T-Coupling group rest is 6185.00
+Making dummy/rest group for User1 containing 2652 elements
+Making dummy/rest group for User2 containing 2652 elements
+Making dummy/rest group for Compressed X containing 2652 elements
+Making dummy/rest group for Or. Res. Fit containing 2652 elements
+Making dummy/rest group for QMMM containing 2652 elements
+T-Coupling       has 1 element(s): rest
+Energy Mon.      has 1 element(s): rest
+Acceleration     has 1 element(s): rest
+Freeze           has 1 element(s): rest
+User1            has 1 element(s): rest
+User2            has 1 element(s): rest
+VCM              has 1 element(s): rest
+Compressed X     has 1 element(s): rest
+Or. Res. Fit     has 1 element(s): rest
+QMMM             has 1 element(s): rest
+Checking consistency between energy and charge groups...
+Estimate for the relative computational load of the PME mesh part: 0.07
+writing run input file...
+
+Back Off! I just backed up min.tpr to ./#min.tpr.1#
+
+GROMACS reminds you: "The first 90% of the code accounts for the first 90% of the development time. The remaining 10% of the code accounts for the other 90% of the development time." (Tom Cargill)
+
+                      :-) GROMACS - gmx grompp, 2019.3 (-:
+
+                            GROMACS is written by:
+     Emile Apol      Rossen Apostolov      Paul Bauer     Herman J.C. Berendsen
+    Par Bjelkmar      Christian Blau   Viacheslav Bolnykh     Kevin Boyd    
+ Aldert van Buuren   Rudi van Drunen     Anton Feenstra       Alan Gray     
+  Gerrit Groenhof     Anca Hamuraru    Vincent Hindriksen  M. Eric Irrgang  
+  Aleksei Iupinov   Christoph Junghans     Joe Jordan     Dimitrios Karkoulis
+    Peter Kasson        Jiri Kraus      Carsten Kutzner      Per Larsson    
+  Justin A. Lemkul    Viveca Lindahl    Magnus Lundborg     Erik Marklund   
+    Pascal Merz     Pieter Meulenhoff    Teemu Murtola       Szilard Pall   
+    Sander Pronk      Roland Schulz      Michael Shirts    Alexey Shvetsov  
+   Alfons Sijbers     Peter Tieleman      Jon Vincent      Teemu Virolainen 
+ Christian Wennberg    Maarten Wolf   
+                           and the project leaders:
+        Mark Abraham, Berk Hess, Erik Lindahl, and David van der Spoel
+
+Copyright (c) 1991-2000, University of Groningen, The Netherlands.
+Copyright (c) 2001-2018, The GROMACS development team at
+Uppsala University, Stockholm University and
+the Royal Institute of Technology, Sweden.
+check out http://www.gromacs.org for more information.
+
+GROMACS is free software; you can redistribute it and/or modify it
+under the terms of the GNU Lesser General Public License
+as published by the Free Software Foundation; either version 2.1
+of the License, or (at your option) any later version.
+
+GROMACS:      gmx grompp, version 2019.3
+Executable:   /home/dgomes/software/gmx2019.3/bin/gmx
+Data prefix:  /home/dgomes/software/gmx2019.3
+Working dir:  /home/dgomes/water_md/spce
+Command line:
+  gmx grompp -maxwarn 1 -v -f /home/dgomes/water_md//mdp/min2.mdp -c min.gro -p topol.top -o min2.tpr -t min.trr
+
+checking input for internal consistency...
+Setting the LD random seed to -1817229362
+Generated 330891 of the 330891 non-bonded parameter combinations
+Generating 1-4 interactions: fudge = 0.5
+Generated 330891 of the 330891 1-4 parameter combinations
+Excluding 2 bonded neighbours molecule type 'SOL'
+processing coordinates...
+double-checking input for internal consistency...
+Removing all charge groups because cutoff-scheme=Verlet
+renumbering atomtypes...
+converting bonded parameters...
+initialising group options...
+processing index file...
+Making dummy/rest group for T-Coupling containing 2652 elements
+Making dummy/rest group for Acceleration containing 2652 elements
+Making dummy/rest group for Freeze containing 2652 elements
+Making dummy/rest group for Energy Mon. containing 2652 elements
+Making dummy/rest group for VCM containing 2652 elements
+Number of degrees of freedom in T-Coupling group rest is 5301.00
+Making dummy/rest group for User1 containing 2652 elements
+Making dummy/rest group for User2 containing 2652 elements
+Making dummy/rest group for Compressed X containing 2652 elements
+Making dummy/rest group for Or. Res. Fit containing 2652 elements
+Making dummy/rest group for QMMM containing 2652 elements
+T-Coupling       has 1 element(s): rest
+Energy Mon.      has 1 element(s): rest
+Acceleration     has 1 element(s): rest
+Freeze           has 1 element(s): rest
+User1            has 1 element(s): rest
+User2            has 1 element(s): rest
+VCM              has 1 element(s): rest
+Compressed X     has 1 element(s): rest
+Or. Res. Fit     has 1 element(s): rest
+QMMM             has 1 element(s): rest
+Checking consistency between energy and charge groups...
+getting data from old trajectory ...
+Reading Coordinates and Box size from old trajectory
+Will read whole trajectory
+trr version: GMX_trn_file (single precision)
+Reading frame       0 time 1001.000   Last frame          0 time 1001.000   
+Using frame at t = 1001 ps
+Starting time for run is 0 ps
+Estimate for the relative computational load of the PME mesh part: 0.07
+writing run input file...
+
+GROMACS reminds you: "Ludwig Boltzmann, who spent much of his life studying statistical mechanics, died in 1906, by his own hand. Paul Ehrenfest, carrying on the same work, died similarly in 1933. Now it is our turn to study statistical mechanics. Perhaps it will be wise to approach the subject cautiously." (David Goodstein)
+
+                      :-) GROMACS - gmx grompp, 2019.3 (-:
+
+                            GROMACS is written by:
+     Emile Apol      Rossen Apostolov      Paul Bauer     Herman J.C. Berendsen
+    Par Bjelkmar      Christian Blau   Viacheslav Bolnykh     Kevin Boyd    
+ Aldert van Buuren   Rudi van Drunen     Anton Feenstra       Alan Gray     
+  Gerrit Groenhof     Anca Hamuraru    Vincent Hindriksen  M. Eric Irrgang  
+  Aleksei Iupinov   Christoph Junghans     Joe Jordan     Dimitrios Karkoulis
+    Peter Kasson        Jiri Kraus      Carsten Kutzner      Per Larsson    
+  Justin A. Lemkul    Viveca Lindahl    Magnus Lundborg     Erik Marklund   
+    Pascal Merz     Pieter Meulenhoff    Teemu Murtola       Szilard Pall   
+    Sander Pronk      Roland Schulz      Michael Shirts    Alexey Shvetsov  
+   Alfons Sijbers     Peter Tieleman      Jon Vincent      Teemu Virolainen 
+ Christian Wennberg    Maarten Wolf   
+                           and the project leaders:
+        Mark Abraham, Berk Hess, Erik Lindahl, and David van der Spoel
+
+Copyright (c) 1991-2000, University of Groningen, The Netherlands.
+Copyright (c) 2001-2018, The GROMACS development team at
+Uppsala University, Stockholm University and
+the Royal Institute of Technology, Sweden.
+check out http://www.gromacs.org for more information.
+
+GROMACS is free software; you can redistribute it and/or modify it
+under the terms of the GNU Lesser General Public License
+as published by the Free Software Foundation; either version 2.1
+of the License, or (at your option) any later version.
+
+GROMACS:      gmx grompp, version 2019.3
+Executable:   /home/dgomes/software/gmx2019.3/bin/gmx
+Data prefix:  /home/dgomes/software/gmx2019.3
+Working dir:  /home/dgomes/water_md/spce
+Command line:
+  gmx grompp -maxwarn 1 -v -f /home/dgomes/water_md//mdp/eql.mdp -c min2.gro -p topol.top -o eql.tpr -t min2.trr
+
+checking input for internal consistency...
+Setting the LD random seed to -723392124
+Generated 330891 of the 330891 non-bonded parameter combinations
+Generating 1-4 interactions: fudge = 0.5
+Generated 330891 of the 330891 1-4 parameter combinations
+Excluding 2 bonded neighbours molecule type 'SOL'
+processing coordinates...
+double-checking input for internal consistency...
+Setting gen_seed to 700529671
+Velocities were taken from a Maxwell distribution at 298.15 K
+Removing all charge groups because cutoff-scheme=Verlet
+renumbering atomtypes...
+converting bonded parameters...
+initialising group options...
+processing index file...
+Making dummy/rest group for Acceleration containing 2652 elements
+Making dummy/rest group for Freeze containing 2652 elements
+Making dummy/rest group for Energy Mon. containing 2652 elements
+Making dummy/rest group for VCM containing 2652 elements
+Number of degrees of freedom in T-Coupling group System is 5301.00
+Making dummy/rest group for User1 containing 2652 elements
+Making dummy/rest group for User2 containing 2652 elements
+Making dummy/rest group for Compressed X containing 2652 elements
+Making dummy/rest group for Or. Res. Fit containing 2652 elements
+Making dummy/rest group for QMMM containing 2652 elements
+T-Coupling       has 1 element(s): System
+Energy Mon.      has 1 element(s): rest
+Acceleration     has 1 element(s): rest
+Freeze           has 1 element(s): rest
+User1            has 1 element(s): rest
+User2            has 1 element(s): rest
+VCM              has 1 element(s): rest
+Compressed X     has 1 element(s): rest
+Or. Res. Fit     has 1 element(s): rest
+QMMM             has 1 element(s): rest
+Checking consistency between energy and charge groups...
+getting data from old trajectory ...
+Reading Coordinates and Box size from old trajectory
+Will read whole trajectory
+Velocities generated: ignoring velocities in input trajectory
+trr version: GMX_trn_file (single precision)
+Reading frame       0 time 2333.000   Last frame          0 time 2333.000   
+Using frame at t = 2333 ps
+Starting time for run is 0 ps
+Estimate for the relative computational load of the PME mesh part: 0.08
+writing run input file...
+
+GROMACS reminds you: "It's an easy game, just don't let the ball past!" (Szilard Pall)
+
+                      :-) GROMACS - gmx grompp, 2019.3 (-:
+
+                            GROMACS is written by:
+     Emile Apol      Rossen Apostolov      Paul Bauer     Herman J.C. Berendsen
+    Par Bjelkmar      Christian Blau   Viacheslav Bolnykh     Kevin Boyd    
+ Aldert van Buuren   Rudi van Drunen     Anton Feenstra       Alan Gray     
+  Gerrit Groenhof     Anca Hamuraru    Vincent Hindriksen  M. Eric Irrgang  
+  Aleksei Iupinov   Christoph Junghans     Joe Jordan     Dimitrios Karkoulis
+    Peter Kasson        Jiri Kraus      Carsten Kutzner      Per Larsson    
+  Justin A. Lemkul    Viveca Lindahl    Magnus Lundborg     Erik Marklund   
+    Pascal Merz     Pieter Meulenhoff    Teemu Murtola       Szilard Pall   
+    Sander Pronk      Roland Schulz      Michael Shirts    Alexey Shvetsov  
+   Alfons Sijbers     Peter Tieleman      Jon Vincent      Teemu Virolainen 
+ Christian Wennberg    Maarten Wolf   
+                           and the project leaders:
+        Mark Abraham, Berk Hess, Erik Lindahl, and David van der Spoel
+
+Copyright (c) 1991-2000, University of Groningen, The Netherlands.
+Copyright (c) 2001-2018, The GROMACS development team at
+Uppsala University, Stockholm University and
+the Royal Institute of Technology, Sweden.
+check out http://www.gromacs.org for more information.
+
+GROMACS is free software; you can redistribute it and/or modify it
+under the terms of the GNU Lesser General Public License
+as published by the Free Software Foundation; either version 2.1
+of the License, or (at your option) any later version.
+
+GROMACS:      gmx grompp, version 2019.3
+Executable:   /home/dgomes/software/gmx2019.3/bin/gmx
+Data prefix:  /home/dgomes/software/gmx2019.3
+Working dir:  /home/dgomes/water_md/spce
+Command line:
+  gmx grompp -maxwarn 1 -v -f /home/dgomes/water_md//mdp/eql2.mdp -c eql.gro -p topol.top -o eql2.tpr -t eql.cpt
+
+checking input for internal consistency...
+Setting the LD random seed to -243673073
+Generated 330891 of the 330891 non-bonded parameter combinations
+Generating 1-4 interactions: fudge = 0.5
+Generated 330891 of the 330891 1-4 parameter combinations
+Excluding 2 bonded neighbours molecule type 'SOL'
+processing coordinates...
+double-checking input for internal consistency...
+Removing all charge groups because cutoff-scheme=Verlet
+renumbering atomtypes...
+converting bonded parameters...
+initialising group options...
+processing index file...
+Making dummy/rest group for Acceleration containing 2652 elements
+Making dummy/rest group for Freeze containing 2652 elements
+Making dummy/rest group for Energy Mon. containing 2652 elements
+Making dummy/rest group for VCM containing 2652 elements
+Number of degrees of freedom in T-Coupling group System is 5301.00
+Making dummy/rest group for User1 containing 2652 elements
+Making dummy/rest group for User2 containing 2652 elements
+Making dummy/rest group for Compressed X containing 2652 elements
+Making dummy/rest group for Or. Res. Fit containing 2652 elements
+Making dummy/rest group for QMMM containing 2652 elements
+T-Coupling       has 1 element(s): System
+Energy Mon.      has 1 element(s): rest
+Acceleration     has 1 element(s): rest
+Freeze           has 1 element(s): rest
+User1            has 1 element(s): rest
+User2            has 1 element(s): rest
+VCM              has 1 element(s): rest
+Compressed X     has 1 element(s): rest
+Or. Res. Fit     has 1 element(s): rest
+QMMM             has 1 element(s): rest
+Checking consistency between energy and charge groups...
+
+WARNING 1 [file /home/dgomes/water_md//mdp/eql2.mdp]:
+  With Nose-Hoover T-coupling and Parrinello-Rahman p-coupling, tau-p (2)
+  should be at least twice as large as tau-t (2) to avoid resonances
+
+getting data from old trajectory ...
+Reading Coordinates, Velocities and Box size from old trajectory
+Will read whole trajectory
+Last frame         -1 time  100.000   
+Using frame at t = 100 ps
+Starting time for run is 0 ps
+Estimate for the relative computational load of the PME mesh part: 0.08
+writing run input file...
+
+There was 1 warning
+
+GROMACS reminds you: "There is an infinite set A that is not too big." (John von Neumann)
+
+                      :-) GROMACS - gmx grompp, 2019.3 (-:
+
+                            GROMACS is written by:
+     Emile Apol      Rossen Apostolov      Paul Bauer     Herman J.C. Berendsen
+    Par Bjelkmar      Christian Blau   Viacheslav Bolnykh     Kevin Boyd    
+ Aldert van Buuren   Rudi van Drunen     Anton Feenstra       Alan Gray     
+  Gerrit Groenhof     Anca Hamuraru    Vincent Hindriksen  M. Eric Irrgang  
+  Aleksei Iupinov   Christoph Junghans     Joe Jordan     Dimitrios Karkoulis
+    Peter Kasson        Jiri Kraus      Carsten Kutzner      Per Larsson    
+  Justin A. Lemkul    Viveca Lindahl    Magnus Lundborg     Erik Marklund   
+    Pascal Merz     Pieter Meulenhoff    Teemu Murtola       Szilard Pall   
+    Sander Pronk      Roland Schulz      Michael Shirts    Alexey Shvetsov  
+   Alfons Sijbers     Peter Tieleman      Jon Vincent      Teemu Virolainen 
+ Christian Wennberg    Maarten Wolf   
+                           and the project leaders:
+        Mark Abraham, Berk Hess, Erik Lindahl, and David van der Spoel
+
+Copyright (c) 1991-2000, University of Groningen, The Netherlands.
+Copyright (c) 2001-2018, The GROMACS development team at
+Uppsala University, Stockholm University and
+the Royal Institute of Technology, Sweden.
+check out http://www.gromacs.org for more information.
+
+GROMACS is free software; you can redistribute it and/or modify it
+under the terms of the GNU Lesser General Public License
+as published by the Free Software Foundation; either version 2.1
+of the License, or (at your option) any later version.
+
+GROMACS:      gmx grompp, version 2019.3
+Executable:   /home/dgomes/software/gmx2019.3/bin/gmx
+Data prefix:  /home/dgomes/software/gmx2019.3
+Working dir:  /home/dgomes/water_md/spce
+Command line:
+  gmx grompp -maxwarn 1 -v -f /home/dgomes/water_md//mdp/prd.mdp -c eql2.gro -p topol.top -o prd.tpr -t eql2.cpt
+
+checking input for internal consistency...
+Setting the LD random seed to -1265496871
+Generated 330891 of the 330891 non-bonded parameter combinations
+Generating 1-4 interactions: fudge = 0.5
+Generated 330891 of the 330891 1-4 parameter combinations
+Excluding 2 bonded neighbours molecule type 'SOL'
+processing coordinates...
+double-checking input for internal consistency...
+Removing all charge groups because cutoff-scheme=Verlet
+renumbering atomtypes...
+converting bonded parameters...
+initialising group options...
+processing index file...
+Making dummy/rest group for Acceleration containing 2652 elements
+Making dummy/rest group for Freeze containing 2652 elements
+Making dummy/rest group for Energy Mon. containing 2652 elements
+Making dummy/rest group for VCM containing 2652 elements
+Number of degrees of freedom in T-Coupling group System is 5301.00
+Making dummy/rest group for User1 containing 2652 elements
+Making dummy/rest group for User2 containing 2652 elements
+Making dummy/rest group for Compressed X containing 2652 elements
+Making dummy/rest group for Or. Res. Fit containing 2652 elements
+Making dummy/rest group for QMMM containing 2652 elements
+T-Coupling       has 1 element(s): System
+Energy Mon.      has 1 element(s): rest
+Acceleration     has 1 element(s): rest
+Freeze           has 1 element(s): rest
+User1            has 1 element(s): rest
+User2            has 1 element(s): rest
+VCM              has 1 element(s): rest
+Compressed X     has 1 element(s): rest
+Or. Res. Fit     has 1 element(s): rest
+QMMM             has 1 element(s): rest
+Checking consistency between energy and charge groups...
+
+WARNING 1 [file /home/dgomes/water_md//mdp/prd.mdp]:
+  With Nose-Hoover T-coupling and Parrinello-Rahman p-coupling, tau-p (2)
+  should be at least twice as large as tau-t (2) to avoid resonances
+
+getting data from old trajectory ...
+Reading Coordinates, Velocities and Box size from old trajectory
+Will read whole trajectory
+Last frame         -1 time 1000.000   
+Using frame at t = 1000 ps
+Starting time for run is 0 ps
+Estimate for the relative computational load of the PME mesh part: 0.18
+writing run input file...
+
+There was 1 warning
+
+GROMACS reminds you: "Torture numbers, and they'll confess to anything." (Greg Easterbrook)
+
+                      :-) GROMACS - gmx grompp, 2019.3 (-:
+
+                            GROMACS is written by:
+     Emile Apol      Rossen Apostolov      Paul Bauer     Herman J.C. Berendsen
+    Par Bjelkmar      Christian Blau   Viacheslav Bolnykh     Kevin Boyd    
+ Aldert van Buuren   Rudi van Drunen     Anton Feenstra       Alan Gray     
+  Gerrit Groenhof     Anca Hamuraru    Vincent Hindriksen  M. Eric Irrgang  
+  Aleksei Iupinov   Christoph Junghans     Joe Jordan     Dimitrios Karkoulis
+    Peter Kasson        Jiri Kraus      Carsten Kutzner      Per Larsson    
+  Justin A. Lemkul    Viveca Lindahl    Magnus Lundborg     Erik Marklund   
+    Pascal Merz     Pieter Meulenhoff    Teemu Murtola       Szilard Pall   
+    Sander Pronk      Roland Schulz      Michael Shirts    Alexey Shvetsov  
+   Alfons Sijbers     Peter Tieleman      Jon Vincent      Teemu Virolainen 
+ Christian Wennberg    Maarten Wolf   
+                           and the project leaders:
+        Mark Abraham, Berk Hess, Erik Lindahl, and David van der Spoel
+
+Copyright (c) 1991-2000, University of Groningen, The Netherlands.
+Copyright (c) 2001-2018, The GROMACS development team at
+Uppsala University, Stockholm University and
+the Royal Institute of Technology, Sweden.
+check out http://www.gromacs.org for more information.
+
+GROMACS is free software; you can redistribute it and/or modify it
+under the terms of the GNU Lesser General Public License
+as published by the Free Software Foundation; either version 2.1
+of the License, or (at your option) any later version.
+
+GROMACS:      gmx grompp, version 2019.3
+Executable:   /home/dgomes/software/gmx2019.3/bin/gmx
+Data prefix:  /home/dgomes/software/gmx2019.3
+Working dir:  /home/dgomes/water_md/spce
+Command line:
+  gmx grompp -maxwarn 1 -v -f /home/dgomes/water_md//mdp/min.mdp -c box.gro -p topol.top -o min.tpr
+
+checking input for internal consistency...
+Setting the LD random seed to -469770566
+Generated 330891 of the 330891 non-bonded parameter combinations
+Generating 1-4 interactions: fudge = 0.5
+Generated 330891 of the 330891 1-4 parameter combinations
+Excluding 2 bonded neighbours molecule type 'SOL'
+processing coordinates...
+double-checking input for internal consistency...
+Removing all charge groups because cutoff-scheme=Verlet
+renumbering atomtypes...
+converting bonded parameters...
+initialising group options...
+processing index file...
+Making dummy/rest group for T-Coupling containing 2652 elements
+Making dummy/rest group for Acceleration containing 2652 elements
+Making dummy/rest group for Freeze containing 2652 elements
+Making dummy/rest group for Energy Mon. containing 2652 elements
+Making dummy/rest group for VCM containing 2652 elements
+Number of degrees of freedom in T-Coupling group rest is 6185.00
+Making dummy/rest group for User1 containing 2652 elements
+Making dummy/rest group for User2 containing 2652 elements
+Making dummy/rest group for Compressed X containing 2652 elements
+Making dummy/rest group for Or. Res. Fit containing 2652 elements
+Making dummy/rest group for QMMM containing 2652 elements
+T-Coupling       has 1 element(s): rest
+Energy Mon.      has 1 element(s): rest
+Acceleration     has 1 element(s): rest
+Freeze           has 1 element(s): rest
+User1            has 1 element(s): rest
+User2            has 1 element(s): rest
+VCM              has 1 element(s): rest
+Compressed X     has 1 element(s): rest
+Or. Res. Fit     has 1 element(s): rest
+QMMM             has 1 element(s): rest
+Checking consistency between energy and charge groups...
+Estimate for the relative computational load of the PME mesh part: 0.16
+writing run input file...
+
+Back Off! I just backed up min.tpr to ./#min.tpr.2#
+
+GROMACS reminds you: "You Can Always Go On Ricky Lake" (Offspring)
+
+                      :-) GROMACS - gmx grompp, 2019.3 (-:
+
+                            GROMACS is written by:
+     Emile Apol      Rossen Apostolov      Paul Bauer     Herman J.C. Berendsen
+    Par Bjelkmar      Christian Blau   Viacheslav Bolnykh     Kevin Boyd    
+ Aldert van Buuren   Rudi van Drunen     Anton Feenstra       Alan Gray     
+  Gerrit Groenhof     Anca Hamuraru    Vincent Hindriksen  M. Eric Irrgang  
+  Aleksei Iupinov   Christoph Junghans     Joe Jordan     Dimitrios Karkoulis
+    Peter Kasson        Jiri Kraus      Carsten Kutzner      Per Larsson    
+  Justin A. Lemkul    Viveca Lindahl    Magnus Lundborg     Erik Marklund   
+    Pascal Merz     Pieter Meulenhoff    Teemu Murtola       Szilard Pall   
+    Sander Pronk      Roland Schulz      Michael Shirts    Alexey Shvetsov  
+   Alfons Sijbers     Peter Tieleman      Jon Vincent      Teemu Virolainen 
+ Christian Wennberg    Maarten Wolf   
+                           and the project leaders:
+        Mark Abraham, Berk Hess, Erik Lindahl, and David van der Spoel
+
+Copyright (c) 1991-2000, University of Groningen, The Netherlands.
+Copyright (c) 2001-2018, The GROMACS development team at
+Uppsala University, Stockholm University and
+the Royal Institute of Technology, Sweden.
+check out http://www.gromacs.org for more information.
+
+GROMACS is free software; you can redistribute it and/or modify it
+under the terms of the GNU Lesser General Public License
+as published by the Free Software Foundation; either version 2.1
+of the License, or (at your option) any later version.
+
+GROMACS:      gmx grompp, version 2019.3
+Executable:   /home/dgomes/software/gmx2019.3/bin/gmx
+Data prefix:  /home/dgomes/software/gmx2019.3
+Working dir:  /home/dgomes/water_md/spce
+Command line:
+  gmx grompp -maxwarn 1 -v -f /home/dgomes/water_md//mdp/min2.mdp -c min.gro -p topol.top -o min2.tpr -t min.trr
+
+checking input for internal consistency...
+Setting the LD random seed to -509798877
+Generated 330891 of the 330891 non-bonded parameter combinations
+Generating 1-4 interactions: fudge = 0.5
+Generated 330891 of the 330891 1-4 parameter combinations
+Excluding 2 bonded neighbours molecule type 'SOL'
+processing coordinates...
+double-checking input for internal consistency...
+Removing all charge groups because cutoff-scheme=Verlet
+renumbering atomtypes...
+converting bonded parameters...
+initialising group options...
+processing index file...
+Making dummy/rest group for T-Coupling containing 2652 elements
+Making dummy/rest group for Acceleration containing 2652 elements
+Making dummy/rest group for Freeze containing 2652 elements
+Making dummy/rest group for Energy Mon. containing 2652 elements
+Making dummy/rest group for VCM containing 2652 elements
+Number of degrees of freedom in T-Coupling group rest is 5301.00
+Making dummy/rest group for User1 containing 2652 elements
+Making dummy/rest group for User2 containing 2652 elements
+Making dummy/rest group for Compressed X containing 2652 elements
+Making dummy/rest group for Or. Res. Fit containing 2652 elements
+Making dummy/rest group for QMMM containing 2652 elements
+T-Coupling       has 1 element(s): rest
+Energy Mon.      has 1 element(s): rest
+Acceleration     has 1 element(s): rest
+Freeze           has 1 element(s): rest
+User1            has 1 element(s): rest
+User2            has 1 element(s): rest
+VCM              has 1 element(s): rest
+Compressed X     has 1 element(s): rest
+Or. Res. Fit     has 1 element(s): rest
+QMMM             has 1 element(s): rest
+Checking consistency between energy and charge groups...
+getting data from old trajectory ...
+Reading Coordinates and Box size from old trajectory
+Will read whole trajectory
+trr version: GMX_trn_file (single precision)
+Reading frame       0 time 1001.000   Last frame          0 time 1001.000   
+Using frame at t = 1001 ps
+Starting time for run is 0 ps
+Estimate for the relative computational load of the PME mesh part: 0.16
+writing run input file...
+
+Back Off! I just backed up min2.tpr to ./#min2.tpr.1#
+
+GROMACS reminds you: "If Java had true garbage collection, most programs would delete themselves upon execution." (Robert Sewell)
+
+                      :-) GROMACS - gmx grompp, 2019.3 (-:
+
+                            GROMACS is written by:
+     Emile Apol      Rossen Apostolov      Paul Bauer     Herman J.C. Berendsen
+    Par Bjelkmar      Christian Blau   Viacheslav Bolnykh     Kevin Boyd    
+ Aldert van Buuren   Rudi van Drunen     Anton Feenstra       Alan Gray     
+  Gerrit Groenhof     Anca Hamuraru    Vincent Hindriksen  M. Eric Irrgang  
+  Aleksei Iupinov   Christoph Junghans     Joe Jordan     Dimitrios Karkoulis
+    Peter Kasson        Jiri Kraus      Carsten Kutzner      Per Larsson    
+  Justin A. Lemkul    Viveca Lindahl    Magnus Lundborg     Erik Marklund   
+    Pascal Merz     Pieter Meulenhoff    Teemu Murtola       Szilard Pall   
+    Sander Pronk      Roland Schulz      Michael Shirts    Alexey Shvetsov  
+   Alfons Sijbers     Peter Tieleman      Jon Vincent      Teemu Virolainen 
+ Christian Wennberg    Maarten Wolf   
+                           and the project leaders:
+        Mark Abraham, Berk Hess, Erik Lindahl, and David van der Spoel
+
+Copyright (c) 1991-2000, University of Groningen, The Netherlands.
+Copyright (c) 2001-2018, The GROMACS development team at
+Uppsala University, Stockholm University and
+the Royal Institute of Technology, Sweden.
+check out http://www.gromacs.org for more information.
+
+GROMACS is free software; you can redistribute it and/or modify it
+under the terms of the GNU Lesser General Public License
+as published by the Free Software Foundation; either version 2.1
+of the License, or (at your option) any later version.
+
+GROMACS:      gmx grompp, version 2019.3
+Executable:   /home/dgomes/software/gmx2019.3/bin/gmx
+Data prefix:  /home/dgomes/software/gmx2019.3
+Working dir:  /home/dgomes/water_md/spce
+Command line:
+  gmx grompp -maxwarn 1 -v -f /home/dgomes/water_md//mdp/eql.mdp -c min2.gro -p topol.top -o eql.tpr -t min2.trr
+
+checking input for internal consistency...
+Setting the LD random seed to 1775163440
+Generated 330891 of the 330891 non-bonded parameter combinations
+Generating 1-4 interactions: fudge = 0.5
+Generated 330891 of the 330891 1-4 parameter combinations
+Excluding 2 bonded neighbours molecule type 'SOL'
+processing coordinates...
+double-checking input for internal consistency...
+Setting gen_seed to 2017321273
+Velocities were taken from a Maxwell distribution at 298.15 K
+Removing all charge groups because cutoff-scheme=Verlet
+renumbering atomtypes...
+converting bonded parameters...
+initialising group options...
+processing index file...
+Making dummy/rest group for Acceleration containing 2652 elements
+Making dummy/rest group for Freeze containing 2652 elements
+Making dummy/rest group for Energy Mon. containing 2652 elements
+Making dummy/rest group for VCM containing 2652 elements
+Number of degrees of freedom in T-Coupling group System is 5301.00
+Making dummy/rest group for User1 containing 2652 elements
+Making dummy/rest group for User2 containing 2652 elements
+Making dummy/rest group for Compressed X containing 2652 elements
+Making dummy/rest group for Or. Res. Fit containing 2652 elements
+Making dummy/rest group for QMMM containing 2652 elements
+T-Coupling       has 1 element(s): System
+Energy Mon.      has 1 element(s): rest
+Acceleration     has 1 element(s): rest
+Freeze           has 1 element(s): rest
+User1            has 1 element(s): rest
+User2            has 1 element(s): rest
+VCM              has 1 element(s): rest
+Compressed X     has 1 element(s): rest
+Or. Res. Fit     has 1 element(s): rest
+QMMM             has 1 element(s): rest
+Checking consistency between energy and charge groups...
+getting data from old trajectory ...
+Reading Coordinates and Box size from old trajectory
+Will read whole trajectory
+Velocities generated: ignoring velocities in input trajectory
+trr version: GMX_trn_file (single precision)
+Reading frame       0 time 2333.000   Last frame          0 time 2333.000   
+Using frame at t = 2333 ps
+Starting time for run is 0 ps
+Estimate for the relative computational load of the PME mesh part: 0.18
+writing run input file...
+
+Back Off! I just backed up eql.tpr to ./#eql.tpr.1#
+
+GROMACS reminds you: "I love deadlines. I like the whooshing sound they make as they fly by." (Douglas Adams)
+
+                      :-) GROMACS - gmx grompp, 2019.3 (-:
+
+                            GROMACS is written by:
+     Emile Apol      Rossen Apostolov      Paul Bauer     Herman J.C. Berendsen
+    Par Bjelkmar      Christian Blau   Viacheslav Bolnykh     Kevin Boyd    
+ Aldert van Buuren   Rudi van Drunen     Anton Feenstra       Alan Gray     
+  Gerrit Groenhof     Anca Hamuraru    Vincent Hindriksen  M. Eric Irrgang  
+  Aleksei Iupinov   Christoph Junghans     Joe Jordan     Dimitrios Karkoulis
+    Peter Kasson        Jiri Kraus      Carsten Kutzner      Per Larsson    
+  Justin A. Lemkul    Viveca Lindahl    Magnus Lundborg     Erik Marklund   
+    Pascal Merz     Pieter Meulenhoff    Teemu Murtola       Szilard Pall   
+    Sander Pronk      Roland Schulz      Michael Shirts    Alexey Shvetsov  
+   Alfons Sijbers     Peter Tieleman      Jon Vincent      Teemu Virolainen 
+ Christian Wennberg    Maarten Wolf   
+                           and the project leaders:
+        Mark Abraham, Berk Hess, Erik Lindahl, and David van der Spoel
+
+Copyright (c) 1991-2000, University of Groningen, The Netherlands.
+Copyright (c) 2001-2018, The GROMACS development team at
+Uppsala University, Stockholm University and
+the Royal Institute of Technology, Sweden.
+check out http://www.gromacs.org for more information.
+
+GROMACS is free software; you can redistribute it and/or modify it
+under the terms of the GNU Lesser General Public License
+as published by the Free Software Foundation; either version 2.1
+of the License, or (at your option) any later version.
+
+GROMACS:      gmx grompp, version 2019.3
+Executable:   /home/dgomes/software/gmx2019.3/bin/gmx
+Data prefix:  /home/dgomes/software/gmx2019.3
+Working dir:  /home/dgomes/water_md/spce
+Command line:
+  gmx grompp -maxwarn 1 -v -f /home/dgomes/water_md//mdp/eql2.mdp -c eql.gro -p topol.top -o eql2.tpr -t eql.cpt
+
+checking input for internal consistency...
+Setting the LD random seed to -996761635
+Generated 330891 of the 330891 non-bonded parameter combinations
+Generating 1-4 interactions: fudge = 0.5
+Generated 330891 of the 330891 1-4 parameter combinations
+Excluding 2 bonded neighbours molecule type 'SOL'
+processing coordinates...
+double-checking input for internal consistency...
+Removing all charge groups because cutoff-scheme=Verlet
+renumbering atomtypes...
+converting bonded parameters...
+initialising group options...
+processing index file...
+Making dummy/rest group for Acceleration containing 2652 elements
+Making dummy/rest group for Freeze containing 2652 elements
+Making dummy/rest group for Energy Mon. containing 2652 elements
+Making dummy/rest group for VCM containing 2652 elements
+Number of degrees of freedom in T-Coupling group System is 5301.00
+Making dummy/rest group for User1 containing 2652 elements
+Making dummy/rest group for User2 containing 2652 elements
+Making dummy/rest group for Compressed X containing 2652 elements
+Making dummy/rest group for Or. Res. Fit containing 2652 elements
+Making dummy/rest group for QMMM containing 2652 elements
+T-Coupling       has 1 element(s): System
+Energy Mon.      has 1 element(s): rest
+Acceleration     has 1 element(s): rest
+Freeze           has 1 element(s): rest
+User1            has 1 element(s): rest
+User2            has 1 element(s): rest
+VCM              has 1 element(s): rest
+Compressed X     has 1 element(s): rest
+Or. Res. Fit     has 1 element(s): rest
+QMMM             has 1 element(s): rest
+Checking consistency between energy and charge groups...
+
+WARNING 1 [file /home/dgomes/water_md//mdp/eql2.mdp]:
+  With Nose-Hoover T-coupling and Parrinello-Rahman p-coupling, tau-p (2)
+  should be at least twice as large as tau-t (2) to avoid resonances
+
+getting data from old trajectory ...
+Reading Coordinates, Velocities and Box size from old trajectory
+Will read whole trajectory
+Last frame         -1 time  100.000   
+Using frame at t = 100 ps
+Starting time for run is 0 ps
+Estimate for the relative computational load of the PME mesh part: 0.18
+writing run input file...
+
+There was 1 warning
+
+Back Off! I just backed up eql2.tpr to ./#eql2.tpr.1#
+
+GROMACS reminds you: "The Internet?  We are not interested in it." (Bill Gates, 1993)
+
+                      :-) GROMACS - gmx grompp, 2019.3 (-:
+
+                            GROMACS is written by:
+     Emile Apol      Rossen Apostolov      Paul Bauer     Herman J.C. Berendsen
+    Par Bjelkmar      Christian Blau   Viacheslav Bolnykh     Kevin Boyd    
+ Aldert van Buuren   Rudi van Drunen     Anton Feenstra       Alan Gray     
+  Gerrit Groenhof     Anca Hamuraru    Vincent Hindriksen  M. Eric Irrgang  
+  Aleksei Iupinov   Christoph Junghans     Joe Jordan     Dimitrios Karkoulis
+    Peter Kasson        Jiri Kraus      Carsten Kutzner      Per Larsson    
+  Justin A. Lemkul    Viveca Lindahl    Magnus Lundborg     Erik Marklund   
+    Pascal Merz     Pieter Meulenhoff    Teemu Murtola       Szilard Pall   
+    Sander Pronk      Roland Schulz      Michael Shirts    Alexey Shvetsov  
+   Alfons Sijbers     Peter Tieleman      Jon Vincent      Teemu Virolainen 
+ Christian Wennberg    Maarten Wolf   
+                           and the project leaders:
+        Mark Abraham, Berk Hess, Erik Lindahl, and David van der Spoel
+
+Copyright (c) 1991-2000, University of Groningen, The Netherlands.
+Copyright (c) 2001-2018, The GROMACS development team at
+Uppsala University, Stockholm University and
+the Royal Institute of Technology, Sweden.
+check out http://www.gromacs.org for more information.
+
+GROMACS is free software; you can redistribute it and/or modify it
+under the terms of the GNU Lesser General Public License
+as published by the Free Software Foundation; either version 2.1
+of the License, or (at your option) any later version.
+
+GROMACS:      gmx grompp, version 2019.3
+Executable:   /home/dgomes/software/gmx2019.3/bin/gmx
+Data prefix:  /home/dgomes/software/gmx2019.3
+Working dir:  /home/dgomes/water_md/spce
+Command line:
+  gmx grompp -maxwarn 1 -v -f /home/dgomes/water_md//mdp/prd.mdp -c eql2.gro -p topol.top -o prd.tpr -t eql2.cpt
+
+checking input for internal consistency...
+Setting the LD random seed to 1396055863
+Generated 330891 of the 330891 non-bonded parameter combinations
+Generating 1-4 interactions: fudge = 0.5
+Generated 330891 of the 330891 1-4 parameter combinations
+Excluding 2 bonded neighbours molecule type 'SOL'
+processing coordinates...
+double-checking input for internal consistency...
+Removing all charge groups because cutoff-scheme=Verlet
+renumbering atomtypes...
+converting bonded parameters...
+initialising group options...
+processing index file...
+Making dummy/rest group for Acceleration containing 2652 elements
+Making dummy/rest group for Freeze containing 2652 elements
+Making dummy/rest group for Energy Mon. containing 2652 elements
+Making dummy/rest group for VCM containing 2652 elements
+Number of degrees of freedom in T-Coupling group System is 5301.00
+Making dummy/rest group for User1 containing 2652 elements
+Making dummy/rest group for User2 containing 2652 elements
+Making dummy/rest group for Compressed X containing 2652 elements
+Making dummy/rest group for Or. Res. Fit containing 2652 elements
+Making dummy/rest group for QMMM containing 2652 elements
+T-Coupling       has 1 element(s): System
+Energy Mon.      has 1 element(s): rest
+Acceleration     has 1 element(s): rest
+Freeze           has 1 element(s): rest
+User1            has 1 element(s): rest
+User2            has 1 element(s): rest
+VCM              has 1 element(s): rest
+Compressed X     has 1 element(s): rest
+Or. Res. Fit     has 1 element(s): rest
+QMMM             has 1 element(s): rest
+Checking consistency between energy and charge groups...
+
+WARNING 1 [file /home/dgomes/water_md//mdp/prd.mdp]:
+  With Nose-Hoover T-coupling and Parrinello-Rahman p-coupling, tau-p (2)
+  should be at least twice as large as tau-t (2) to avoid resonances
+
+getting data from old trajectory ...
+Reading Coordinates, Velocities and Box size from old trajectory
+Will read whole trajectory
+Last frame         -1 time 1000.000   
+Using frame at t = 1000 ps
+Starting time for run is 0 ps
+Estimate for the relative computational load of the PME mesh part: 0.18
+writing run input file...
+
+There was 1 warning
+
+Back Off! I just backed up prd.tpr to ./#prd.tpr.1#
+
+GROMACS reminds you: "No great discovery was ever made without a bold guess." (Marie Curie)
+
+                      :-) GROMACS - gmx grompp, 2019.3 (-:
+
+                            GROMACS is written by:
+     Emile Apol      Rossen Apostolov      Paul Bauer     Herman J.C. Berendsen
+    Par Bjelkmar      Christian Blau   Viacheslav Bolnykh     Kevin Boyd    
+ Aldert van Buuren   Rudi van Drunen     Anton Feenstra       Alan Gray     
+  Gerrit Groenhof     Anca Hamuraru    Vincent Hindriksen  M. Eric Irrgang  
+  Aleksei Iupinov   Christoph Junghans     Joe Jordan     Dimitrios Karkoulis
+    Peter Kasson        Jiri Kraus      Carsten Kutzner      Per Larsson    
+  Justin A. Lemkul    Viveca Lindahl    Magnus Lundborg     Erik Marklund   
+    Pascal Merz     Pieter Meulenhoff    Teemu Murtola       Szilard Pall   
+    Sander Pronk      Roland Schulz      Michael Shirts    Alexey Shvetsov  
+   Alfons Sijbers     Peter Tieleman      Jon Vincent      Teemu Virolainen 
+ Christian Wennberg    Maarten Wolf   
+                           and the project leaders:
+        Mark Abraham, Berk Hess, Erik Lindahl, and David van der Spoel
+
+Copyright (c) 1991-2000, University of Groningen, The Netherlands.
+Copyright (c) 2001-2018, The GROMACS development team at
+Uppsala University, Stockholm University and
+the Royal Institute of Technology, Sweden.
+check out http://www.gromacs.org for more information.
+
+GROMACS is free software; you can redistribute it and/or modify it
+under the terms of the GNU Lesser General Public License
+as published by the Free Software Foundation; either version 2.1
+of the License, or (at your option) any later version.
+
+GROMACS:      gmx grompp, version 2019.3
+Executable:   /home/dgomes/software/gmx2019.3/bin/gmx
+Data prefix:  /home/dgomes/software/gmx2019.3
+Working dir:  /home/dgomes/water_md/spce
+Command line:
+  gmx grompp -maxwarn 1 -v -f /home/dgomes/water_md//mdp/min.mdp -c box.gro -p topol.top -o min.tpr
+
+checking input for internal consistency...
+Setting the LD random seed to -851557004
+Generated 330891 of the 330891 non-bonded parameter combinations
+Generating 1-4 interactions: fudge = 0.5
+Generated 330891 of the 330891 1-4 parameter combinations
+Excluding 2 bonded neighbours molecule type 'SOL'
+processing coordinates...
+double-checking input for internal consistency...
+Removing all charge groups because cutoff-scheme=Verlet
+renumbering atomtypes...
+converting bonded parameters...
+initialising group options...
+processing index file...
+Making dummy/rest group for T-Coupling containing 2652 elements
+Making dummy/rest group for Acceleration containing 2652 elements
+Making dummy/rest group for Freeze containing 2652 elements
+Making dummy/rest group for Energy Mon. containing 2652 elements
+Making dummy/rest group for VCM containing 2652 elements
+Number of degrees of freedom in T-Coupling group rest is 6185.00
+Making dummy/rest group for User1 containing 2652 elements
+Making dummy/rest group for User2 containing 2652 elements
+Making dummy/rest group for Compressed X containing 2652 elements
+Making dummy/rest group for Or. Res. Fit containing 2652 elements
+Making dummy/rest group for QMMM containing 2652 elements
+T-Coupling       has 1 element(s): rest
+Energy Mon.      has 1 element(s): rest
+Acceleration     has 1 element(s): rest
+Freeze           has 1 element(s): rest
+User1            has 1 element(s): rest
+User2            has 1 element(s): rest
+VCM              has 1 element(s): rest
+Compressed X     has 1 element(s): rest
+Or. Res. Fit     has 1 element(s): rest
+QMMM             has 1 element(s): rest
+Checking consistency between energy and charge groups...
+Estimate for the relative computational load of the PME mesh part: 0.16
+writing run input file...
+
+Back Off! I just backed up min.tpr to ./#min.tpr.3#
+
+GROMACS reminds you: "I Have a Bad Case Of Purple Diarrhea" (Urban Dance Squad)
+
+                      :-) GROMACS - gmx grompp, 2019.3 (-:
+
+                            GROMACS is written by:
+     Emile Apol      Rossen Apostolov      Paul Bauer     Herman J.C. Berendsen
+    Par Bjelkmar      Christian Blau   Viacheslav Bolnykh     Kevin Boyd    
+ Aldert van Buuren   Rudi van Drunen     Anton Feenstra       Alan Gray     
+  Gerrit Groenhof     Anca Hamuraru    Vincent Hindriksen  M. Eric Irrgang  
+  Aleksei Iupinov   Christoph Junghans     Joe Jordan     Dimitrios Karkoulis
+    Peter Kasson        Jiri Kraus      Carsten Kutzner      Per Larsson    
+  Justin A. Lemkul    Viveca Lindahl    Magnus Lundborg     Erik Marklund   
+    Pascal Merz     Pieter Meulenhoff    Teemu Murtola       Szilard Pall   
+    Sander Pronk      Roland Schulz      Michael Shirts    Alexey Shvetsov  
+   Alfons Sijbers     Peter Tieleman      Jon Vincent      Teemu Virolainen 
+ Christian Wennberg    Maarten Wolf   
+                           and the project leaders:
+        Mark Abraham, Berk Hess, Erik Lindahl, and David van der Spoel
+
+Copyright (c) 1991-2000, University of Groningen, The Netherlands.
+Copyright (c) 2001-2018, The GROMACS development team at
+Uppsala University, Stockholm University and
+the Royal Institute of Technology, Sweden.
+check out http://www.gromacs.org for more information.
+
+GROMACS is free software; you can redistribute it and/or modify it
+under the terms of the GNU Lesser General Public License
+as published by the Free Software Foundation; either version 2.1
+of the License, or (at your option) any later version.
+
+GROMACS:      gmx grompp, version 2019.3
+Executable:   /home/dgomes/software/gmx2019.3/bin/gmx
+Data prefix:  /home/dgomes/software/gmx2019.3
+Working dir:  /home/dgomes/water_md/spce
+Command line:
+  gmx grompp -maxwarn 1 -v -f /home/dgomes/water_md//mdp/min2.mdp -c min.gro -p topol.top -o min2.tpr -t min.trr
+
+checking input for internal consistency...
+Setting the LD random seed to -1795471609
+Generated 330891 of the 330891 non-bonded parameter combinations
+Generating 1-4 interactions: fudge = 0.5
+Generated 330891 of the 330891 1-4 parameter combinations
+Excluding 2 bonded neighbours molecule type 'SOL'
+processing coordinates...
+double-checking input for internal consistency...
+Removing all charge groups because cutoff-scheme=Verlet
+renumbering atomtypes...
+converting bonded parameters...
+initialising group options...
+processing index file...
+Making dummy/rest group for T-Coupling containing 2652 elements
+Making dummy/rest group for Acceleration containing 2652 elements
+Making dummy/rest group for Freeze containing 2652 elements
+Making dummy/rest group for Energy Mon. containing 2652 elements
+Making dummy/rest group for VCM containing 2652 elements
+Number of degrees of freedom in T-Coupling group rest is 5301.00
+Making dummy/rest group for User1 containing 2652 elements
+Making dummy/rest group for User2 containing 2652 elements
+Making dummy/rest group for Compressed X containing 2652 elements
+Making dummy/rest group for Or. Res. Fit containing 2652 elements
+Making dummy/rest group for QMMM containing 2652 elements
+T-Coupling       has 1 element(s): rest
+Energy Mon.      has 1 element(s): rest
+Acceleration     has 1 element(s): rest
+Freeze           has 1 element(s): rest
+User1            has 1 element(s): rest
+User2            has 1 element(s): rest
+VCM              has 1 element(s): rest
+Compressed X     has 1 element(s): rest
+Or. Res. Fit     has 1 element(s): rest
+QMMM             has 1 element(s): rest
+Checking consistency between energy and charge groups...
+getting data from old trajectory ...
+Reading Coordinates and Box size from old trajectory
+Will read whole trajectory
+trr version: GMX_trn_file (single precision)
+Reading frame       0 time 1001.000   Last frame          0 time 1001.000   
+Using frame at t = 1001 ps
+Starting time for run is 0 ps
+Estimate for the relative computational load of the PME mesh part: 0.16
+writing run input file...
+
+Back Off! I just backed up min2.tpr to ./#min2.tpr.2#
+
+GROMACS reminds you: "The Microsecond is Within Reach" (P.J. Van Maaren)
+
+                      :-) GROMACS - gmx grompp, 2019.3 (-:
+
+                            GROMACS is written by:
+     Emile Apol      Rossen Apostolov      Paul Bauer     Herman J.C. Berendsen
+    Par Bjelkmar      Christian Blau   Viacheslav Bolnykh     Kevin Boyd    
+ Aldert van Buuren   Rudi van Drunen     Anton Feenstra       Alan Gray     
+  Gerrit Groenhof     Anca Hamuraru    Vincent Hindriksen  M. Eric Irrgang  
+  Aleksei Iupinov   Christoph Junghans     Joe Jordan     Dimitrios Karkoulis
+    Peter Kasson        Jiri Kraus      Carsten Kutzner      Per Larsson    
+  Justin A. Lemkul    Viveca Lindahl    Magnus Lundborg     Erik Marklund   
+    Pascal Merz     Pieter Meulenhoff    Teemu Murtola       Szilard Pall   
+    Sander Pronk      Roland Schulz      Michael Shirts    Alexey Shvetsov  
+   Alfons Sijbers     Peter Tieleman      Jon Vincent      Teemu Virolainen 
+ Christian Wennberg    Maarten Wolf   
+                           and the project leaders:
+        Mark Abraham, Berk Hess, Erik Lindahl, and David van der Spoel
+
+Copyright (c) 1991-2000, University of Groningen, The Netherlands.
+Copyright (c) 2001-2018, The GROMACS development team at
+Uppsala University, Stockholm University and
+the Royal Institute of Technology, Sweden.
+check out http://www.gromacs.org for more information.
+
+GROMACS is free software; you can redistribute it and/or modify it
+under the terms of the GNU Lesser General Public License
+as published by the Free Software Foundation; either version 2.1
+of the License, or (at your option) any later version.
+
+GROMACS:      gmx grompp, version 2019.3
+Executable:   /home/dgomes/software/gmx2019.3/bin/gmx
+Data prefix:  /home/dgomes/software/gmx2019.3
+Working dir:  /home/dgomes/water_md/spce
+Command line:
+  gmx grompp -maxwarn 1 -v -f /home/dgomes/water_md//mdp/eql.mdp -c min2.gro -p topol.top -o eql.tpr -t min2.trr
+
+checking input for internal consistency...
+Setting the LD random seed to 425916978
+Generated 330891 of the 330891 non-bonded parameter combinations
+Generating 1-4 interactions: fudge = 0.5
+Generated 330891 of the 330891 1-4 parameter combinations
+Excluding 2 bonded neighbours molecule type 'SOL'
+processing coordinates...
+double-checking input for internal consistency...
+Setting gen_seed to -166093562
+Velocities were taken from a Maxwell distribution at 298.15 K
+Removing all charge groups because cutoff-scheme=Verlet
+renumbering atomtypes...
+converting bonded parameters...
+initialising group options...
+processing index file...
+Making dummy/rest group for Acceleration containing 2652 elements
+Making dummy/rest group for Freeze containing 2652 elements
+Making dummy/rest group for Energy Mon. containing 2652 elements
+Making dummy/rest group for VCM containing 2652 elements
+Number of degrees of freedom in T-Coupling group System is 5301.00
+Making dummy/rest group for User1 containing 2652 elements
+Making dummy/rest group for User2 containing 2652 elements
+Making dummy/rest group for Compressed X containing 2652 elements
+Making dummy/rest group for Or. Res. Fit containing 2652 elements
+Making dummy/rest group for QMMM containing 2652 elements
+T-Coupling       has 1 element(s): System
+Energy Mon.      has 1 element(s): rest
+Acceleration     has 1 element(s): rest
+Freeze           has 1 element(s): rest
+User1            has 1 element(s): rest
+User2            has 1 element(s): rest
+VCM              has 1 element(s): rest
+Compressed X     has 1 element(s): rest
+Or. Res. Fit     has 1 element(s): rest
+QMMM             has 1 element(s): rest
+Checking consistency between energy and charge groups...
+getting data from old trajectory ...
+Reading Coordinates and Box size from old trajectory
+Will read whole trajectory
+Velocities generated: ignoring velocities in input trajectory
+trr version: GMX_trn_file (single precision)
+Reading frame       0 time 3482.000   Last frame          0 time 3482.000   
+Using frame at t = 3482 ps
+Starting time for run is 0 ps
+Estimate for the relative computational load of the PME mesh part: 0.18
+writing run input file...
+
+Back Off! I just backed up eql.tpr to ./#eql.tpr.2#
+
+GROMACS reminds you: "The best part of winter in Stockholm is going to Australia" (Mark Abraham)
+
+                      :-) GROMACS - gmx grompp, 2019.3 (-:
+
+                            GROMACS is written by:
+     Emile Apol      Rossen Apostolov      Paul Bauer     Herman J.C. Berendsen
+    Par Bjelkmar      Christian Blau   Viacheslav Bolnykh     Kevin Boyd    
+ Aldert van Buuren   Rudi van Drunen     Anton Feenstra       Alan Gray     
+  Gerrit Groenhof     Anca Hamuraru    Vincent Hindriksen  M. Eric Irrgang  
+  Aleksei Iupinov   Christoph Junghans     Joe Jordan     Dimitrios Karkoulis
+    Peter Kasson        Jiri Kraus      Carsten Kutzner      Per Larsson    
+  Justin A. Lemkul    Viveca Lindahl    Magnus Lundborg     Erik Marklund   
+    Pascal Merz     Pieter Meulenhoff    Teemu Murtola       Szilard Pall   
+    Sander Pronk      Roland Schulz      Michael Shirts    Alexey Shvetsov  
+   Alfons Sijbers     Peter Tieleman      Jon Vincent      Teemu Virolainen 
+ Christian Wennberg    Maarten Wolf   
+                           and the project leaders:
+        Mark Abraham, Berk Hess, Erik Lindahl, and David van der Spoel
+
+Copyright (c) 1991-2000, University of Groningen, The Netherlands.
+Copyright (c) 2001-2018, The GROMACS development team at
+Uppsala University, Stockholm University and
+the Royal Institute of Technology, Sweden.
+check out http://www.gromacs.org for more information.
+
+GROMACS is free software; you can redistribute it and/or modify it
+under the terms of the GNU Lesser General Public License
+as published by the Free Software Foundation; either version 2.1
+of the License, or (at your option) any later version.
+
+GROMACS:      gmx grompp, version 2019.3
+Executable:   /home/dgomes/software/gmx2019.3/bin/gmx
+Data prefix:  /home/dgomes/software/gmx2019.3
+Working dir:  /home/dgomes/water_md/spce
+Command line:
+  gmx grompp -maxwarn 1 -v -f /home/dgomes/water_md//mdp/eql2.mdp -c eql.gro -p topol.top -o eql2.tpr -t eql.cpt
+
+checking input for internal consistency...
+Setting the LD random seed to 1339570401
+Generated 330891 of the 330891 non-bonded parameter combinations
+Generating 1-4 interactions: fudge = 0.5
+Generated 330891 of the 330891 1-4 parameter combinations
+Excluding 2 bonded neighbours molecule type 'SOL'
+processing coordinates...
+double-checking input for internal consistency...
+Removing all charge groups because cutoff-scheme=Verlet
+renumbering atomtypes...
+converting bonded parameters...
+initialising group options...
+processing index file...
+Making dummy/rest group for Acceleration containing 2652 elements
+Making dummy/rest group for Freeze containing 2652 elements
+Making dummy/rest group for Energy Mon. containing 2652 elements
+Making dummy/rest group for VCM containing 2652 elements
+Number of degrees of freedom in T-Coupling group System is 5301.00
+Making dummy/rest group for User1 containing 2652 elements
+Making dummy/rest group for User2 containing 2652 elements
+Making dummy/rest group for Compressed X containing 2652 elements
+Making dummy/rest group for Or. Res. Fit containing 2652 elements
+Making dummy/rest group for QMMM containing 2652 elements
+T-Coupling       has 1 element(s): System
+Energy Mon.      has 1 element(s): rest
+Acceleration     has 1 element(s): rest
+Freeze           has 1 element(s): rest
+User1            has 1 element(s): rest
+User2            has 1 element(s): rest
+VCM              has 1 element(s): rest
+Compressed X     has 1 element(s): rest
+Or. Res. Fit     has 1 element(s): rest
+QMMM             has 1 element(s): rest
+Checking consistency between energy and charge groups...
+
+WARNING 1 [file /home/dgomes/water_md//mdp/eql2.mdp]:
+  With Nose-Hoover T-coupling and Parrinello-Rahman p-coupling, tau-p (2)
+  should be at least twice as large as tau-t (2) to avoid resonances
+
+getting data from old trajectory ...
+Reading Coordinates, Velocities and Box size from old trajectory
+Will read whole trajectory
+Last frame         -1 time  100.000   
+Using frame at t = 100 ps
+Starting time for run is 0 ps
+Estimate for the relative computational load of the PME mesh part: 0.18
+writing run input file...
+
+There was 1 warning
+
+Back Off! I just backed up eql2.tpr to ./#eql2.tpr.2#
+
+GROMACS reminds you: "If mathematical analysis should ever hold a prominent place in chemistry - an aberration which is happily almost impossible - it would occasion a rapid and widespread degeneration of that science." (Aguste Comte, 1830)
+

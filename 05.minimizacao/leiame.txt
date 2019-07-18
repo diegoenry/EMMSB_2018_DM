@@ -1,0 +1,22 @@
+#!/bin/bash 
+
+# Veja o arquivo de minimizacao com restricoes de posicoes para a proteina
+gedit mini_pr.mdp
+
+# Prepare a mini_prmizacao
+gmx grompp -v -f mini_pr.mdp -c sistema.gro -p sistema.top -o mini_pr.tpr 
+gmx mdrun -v -deffnm mini_pr
+
+# Resultado para a energia potencial
+gmx energy -f mini_pr.edr -w 
+
+# Veja o arquivo de minimizacao
+gedit mini.mdp
+
+# Prepare a mini_prmizacao
+gmx grompp -v -f mini.mdp -c mini_pr.gro -t mini_pr.trr -p sistema.top -o mini.tpr
+gmx mdrun -v -deffnm mini
+
+# Resultado para a energia potencial
+echo Potential | gmx energy -f mini.edr -w 
+

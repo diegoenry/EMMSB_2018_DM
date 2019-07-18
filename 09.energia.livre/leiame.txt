@@ -1,0 +1,20 @@
+# Prepara a topologia para o MMGBSA, modelo GB=2 
+rm -rf com.top rec.top lig.top
+ante-MMPBSA.py -p complexo.prmtop -c com.top -r rec.top -l lig.top -s '!:1-199' -n :LIG --radii=mbondi2
+
+# Estima a energia livre de ligacao com o metodo MM-GBSA
+mpirun -n 4 MMPBSA.py.MPI -O -i MM-GBSA.in     -y prod_fit_complexo.nc -cp com.top -rp rec.top -lp lig.top -o MM-GBSA.dat -eo MM-GBSA.csv
+
+# Estima a energia livre de ligacao com o metodo MM-GBSA
+# Estima a contribuicao da entropia, usando a aproximacao quasi-harmonica.
+mpirun -n 4 MMPBSA.py.MPI -O -i MM-GBSA-QHE.in -y prod_fit_complexo.nc -cp com.top -rp rec.top -lp lig.top -o MM-GBSA-QHE.dat -eo MM-GBSA-QHE.csv
+
+
+
+# Prepara a topologia para o MM-PBSA, modelo PB=1
+rm -rf com.top rec.top lig.top
+ante-MMPBSA.py -p complexo.prmtop -c com.top -r rec.top -l lig.top -s '!:1-199' -n :LIG --radii=mbondi
+
+# Calcula a "binding free energy" usando o modelo PBSA
+mpirun -n 4 MMPBSA.py.MPI -O -i MM-PBSA.in -y prod_fit_complexo.nc -cp com.top -rp rec.top -lp lig.top -o MM-PBSA.dat -eo MM-PBSA.csv
+

@@ -1,0 +1,33 @@
+# VMD for MACOSXX86, version 1.9.2 (December 29, 2014)
+# Log file '/Users/dgomes/Desktop/DM_24_Agosto_2016/07.producao.npt/bonitao.vmd', created by user dgomes
+menu files off
+menu files on
+display resetview
+mol addrep 0
+display resetview
+mol new {complexo.pdb} type {pdb} first 0 last -1 step 1 waitfor 1
+animate style Loop
+mol addfile {complexo.xtc} type {xtc} first 0 last -1 step 1 waitfor 1 1
+animate style Loop
+menu files off
+display projection Orthographic
+menu color off
+menu color on
+color Display Background white
+mol modselect 0 0 protein
+mol modstyle 0 0 NewCartoon 0.300000 10.000000 4.100000 0
+mol color Name
+mol representation NewCartoon 0.300000 10.000000 4.100000 0
+mol selection protein
+mol material Opaque
+mol addrep 1
+mol modselect 1 0 not protein
+mol modstyle 1 0 Licorice 0.300000 12.000000 12.000000
+mol modcolor 0 0 Structure
+scale by 1.200000
+scale by 1.200000
+scale by 1.200000
+scale by 1.200000
+scale by 1.200000
+# VMD for MACOSXX86, version 1.9.2 (December 29, 2014)
+# end of log file.

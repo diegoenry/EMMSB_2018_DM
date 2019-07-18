@@ -1,0 +1,8 @@
+Arquivo de entrada para correr o MMGBSA
+&general
+   keep_files=0,endframe=1000, keep_files=2,interval=10,
+   entropy=1,
+/
+&gb
+  igb=2, saltcon=0.100,
+/

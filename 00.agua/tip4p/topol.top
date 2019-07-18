@@ -1,0 +1,8 @@
+#include "oplsaa.ff/forcefield.itp"
+#include "oplsaa.ff/tip4p.itp"
+
+[ System ]
+tip4p in water
+
+[ Molecules ]
+SOL               909

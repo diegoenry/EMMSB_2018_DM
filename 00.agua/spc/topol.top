@@ -1,0 +1,8 @@
+#include "oplsaa.ff/forcefield.itp"
+#include "oplsaa.ff/spc.itp"
+
+[ System ]
+spc in water
+
+[ Molecules ]
+SOL               884

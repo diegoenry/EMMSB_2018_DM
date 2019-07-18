@@ -1,0 +1,21 @@
+#1 criar uma copia da proteina
+cp proteina.gro complexo.gro
+
+#2 copiar APENAS OS ATOMOS do arquivo "1UN_GMX.gro" para o final do "complexo.gro"
+#  Coloque os atomos ENTRE A PROTEINA E O SOLVENTE (agua) 
+gedit 1UN_GMX.gro complexo.gro 
+
+
+#3 criar uma copia do arquivo de topologia 
+cp proteina.top complexo.top
+
+#4 Incluir a topologia do ligante no complexo.top
+# Precisa colocar LOGO ABAIXO do campo de forcas pois sao novos parametros.
+# Deve ficar como as 3 linhas abaixo
+
+; Include forcefield parameters
+#include "amber99sb-ildn.ff/forcefield.itp"
+##include "1UN_GMX.itp"
+
+#5 Teste se funcionou 
+gmx grompp -v -f addion.mdp -c complexo.gro -p complexo.top

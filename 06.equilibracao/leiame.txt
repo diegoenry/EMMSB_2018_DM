@@ -1,0 +1,53 @@
+#!/bin/bash
+# prepara a equilibracao
+gedit equil.mdp
+
+# Repare que no controle de temperatura tem dois grupos, Solute e Solvente 
+# Eu criei um arquivo de indice (index.ndx) contendo esses grupos.
+
+gmx make_ndx -f ../05.minimizacao/mini.gro  -o index.ndx 
+
+# 1) escolhi juntar "Proteina" com "Ligante"
+# 2) escolhi juntar "Agua" com Ions
+# 3) renomeei novos grupos
+# Veja abaixo
+
+> 1|13
+
+Copied index group 1 'Protein'
+Copied index group 13 'LIG'
+Merged two groups with OR: 3128 85 -> 3213
+
+ 24 Protein_LIG         :  3213 atoms
+
+> 17|19
+
+Copied index group 17 'SOL'
+Copied index group 19 'Ion'
+Merged two groups with OR: 24294 54 -> 24348
+
+ 25 SOL_Ion             : 24348 atoms
+
+> name 24 solute
+
+> name 25 solvent
+
+> quit
+
+
+
+# Agora prepare o arquivo da equilibracao
+gmx grompp -v -f equil.mdp -c ../05.minimizacao/mini.gro -t ../05.minimizacao/mini.trr -p ../04.preparacao_da_simulacao/sistema.top -o equil.tpr -n index.ndx
+
+# Agora e so executar a simulacao  (Ja esta pronto nao aperte enter !!!! )
+gmx mdrun -v -deffnm equil
+
+
+# Hora de visualizar
+vmd 
+
+# Equilibracao da pressao
+gmx grompp -v -f equil.npt.mdp -c equil.gro -t equil.cpt  -p ../04.preparacao_da_simulacao/sistema.top  -o equil.npt.tpr -n index.ndx
+gmx mdrun -v -deffnm equil.npt
+
+
