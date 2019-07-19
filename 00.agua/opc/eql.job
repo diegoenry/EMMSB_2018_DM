@@ -34,19 +34,28 @@ Command line:
   gmx mdrun -deffnm eql
 
 
--------------------------------------------------------
-Program:     gmx mdrun, version 2019.3
-Source file: src/gromacs/options/options.cpp (line 190)
-Function:    void gmx::internal::OptionSectionImpl::finish()
+Back Off! I just backed up eql.log to ./#eql.log.1#
+Reading file eql.tpr, VERSION 2019.3 (single precision)
+Changing nstlist from 10 to 40, rlist from 1.01 to 1.117
 
-Error in user input:
-Invalid input values
-  In option s
-    Required option was not provided, and the default file 'topol' does not
-    exist or is not accessible.
-    The following extensions were tried to complete the file name:
-      .tpr
+Using 1 MPI thread
+Using 8 OpenMP threads 
 
-For more information and tips for troubleshooting, please check the GROMACS
-website at http://www.gromacs.org/Documentation/Errors
--------------------------------------------------------
+
+Back Off! I just backed up eql.xtc to ./#eql.xtc.1#
+
+Back Off! I just backed up eql.edr to ./#eql.edr.1#
+starting mdrun 'opc in water'
+50000 steps,    100.0 ps.
+
+Writing final coordinates.
+
+Back Off! I just backed up eql.gro to ./#eql.gro.1#
+
+               Core t (s)   Wall t (s)        (%)
+       Time:      789.450       98.682      800.0
+                 (ns/day)    (hour/ns)
+Performance:       87.555        0.274
+
+GROMACS reminds you: "You Fill Me With Inertia" (The Long Blondes)
+

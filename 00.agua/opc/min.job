@@ -34,19 +34,87 @@ Command line:
   gmx mdrun -deffnm min
 
 
--------------------------------------------------------
-Program:     gmx mdrun, version 2019.3
-Source file: src/gromacs/options/options.cpp (line 190)
-Function:    void gmx::internal::OptionSectionImpl::finish()
+Back Off! I just backed up min.log to ./#min.log.1#
+Reading file min.tpr, VERSION 2019.3 (single precision)
+Using 1 MPI thread
+Using 8 OpenMP threads 
 
-Error in user input:
-Invalid input values
-  In option s
-    Required option was not provided, and the default file 'topol' does not
-    exist or is not accessible.
-    The following extensions were tried to complete the file name:
-      .tpr
 
-For more information and tips for troubleshooting, please check the GROMACS
-website at http://www.gromacs.org/Documentation/Errors
--------------------------------------------------------
+Back Off! I just backed up min.trr to ./#min.trr.1#
+
+Back Off! I just backed up min.edr to ./#min.edr.1#
+
+Steepest Descents:
+   Tolerance (Fmax)   =  1.00000e+01
+   Number of steps    =         1000
+
+Step 7, time 0.007 (ps)  LINCS WARNING
+relative constraint deviation after LINCS:
+rms 0.002663, max 0.045214 (between atoms 817 and 819)
+bonds that rotated more than 30 degrees:
+ atom 1 atom 2  angle  previous, current, constraint length
+
+Step 8, time 0.008 (ps)  LINCS WARNING
+relative constraint deviation after LINCS:
+rms 0.001678, max 0.028805 (between atoms 817 and 819)
+bonds that rotated more than 30 degrees:
+ atom 1 atom 2  angle  previous, current, constraint length
+    817    818   33.0    0.0833   0.0889      0.0872
+
+Step 9, time 0.009 (ps)  LINCS WARNING
+relative constraint deviation after LINCS:
+rms 0.008220, max 0.136224 (between atoms 817 and 819)
+bonds that rotated more than 30 degrees:
+ atom 1 atom 2  angle  previous, current, constraint length
+    817    818   40.8    0.0889   0.0754      0.0872
+    817    819   41.5    0.0898   0.0754      0.0872
+   1025   1026   35.1    0.0887   0.0775      0.0872
+   1025   1027   40.0    0.0886   0.0776      0.0872
+   1749   1750   30.4    0.0885   0.0829      0.0872
+   1849   1850   33.4    0.0885   0.0800      0.0872
+   1849   1851   34.7    0.0886   0.0800      0.0872
+   2141   2142   32.1    0.0882   0.0817      0.0872
+   2141   2143   30.7    0.0882   0.0816      0.0872
+   3569   3570   34.6    0.0883   0.0804      0.0872
+   3569   3571   32.9    0.0883   0.0804      0.0872
+
+Step 17, time 0.017 (ps)  LINCS WARNING
+relative constraint deviation after LINCS:
+rms 0.002487, max 0.053024 (between atoms 3569 and 3570)
+bonds that rotated more than 30 degrees:
+ atom 1 atom 2  angle  previous, current, constraint length
+
+Step 18, time 0.018 (ps)  LINCS WARNING
+relative constraint deviation after LINCS:
+rms 0.001323, max 0.027193 (between atoms 3569 and 3570)
+bonds that rotated more than 30 degrees:
+ atom 1 atom 2  angle  previous, current, constraint length
+   3569   3570   31.4    0.0826   0.0896      0.0872
+   3569   3571   32.4    0.0826   0.0894      0.0872
+
+Step 19, time 0.019 (ps)  LINCS WARNING
+relative constraint deviation after LINCS:
+rms 0.007308, max 0.169082 (between atoms 3569 and 3570)
+bonds that rotated more than 30 degrees:
+ atom 1 atom 2  angle  previous, current, constraint length
+    817    818   31.7    0.0884   0.0817      0.0872
+    817    819   30.9    0.0885   0.0817      0.0872
+   2141   2142   37.5    0.0890   0.0782      0.0872
+   2141   2143   36.4    0.0888   0.0782      0.0872
+   3569   3570   44.5    0.0896   0.0725      0.0872
+   3569   3571   44.0    0.0894   0.0725      0.0872
+
+Energy minimization reached the maximum number of steps before the forces
+reached the requested precision Fmax < 10.
+
+writing lowest energy coordinates.
+
+Back Off! I just backed up min.gro to ./#min.gro.1#
+
+Steepest Descents did not converge to Fmax < 10 in 1001 steps.
+Potential Energy  = -5.4014961e+04
+Maximum force     =  3.0060556e+02 on atom 2138
+Norm of force     =  1.3430454e+01
+
+GROMACS reminds you: "Let's Go Hang Out In a Mall" (LIVE)
+

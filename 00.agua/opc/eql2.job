@@ -33,20 +33,21 @@ Working dir:  /home/dgomes/water_md/opc
 Command line:
   gmx mdrun -deffnm eql2
 
+Reading file eql2.tpr, VERSION 2019.3 (single precision)
+Changing nstlist from 10 to 40, rlist from 1.01 to 1.117
 
--------------------------------------------------------
-Program:     gmx mdrun, version 2019.3
-Source file: src/gromacs/options/options.cpp (line 190)
-Function:    void gmx::internal::OptionSectionImpl::finish()
+Using 1 MPI thread
+Using 8 OpenMP threads 
 
-Error in user input:
-Invalid input values
-  In option s
-    Required option was not provided, and the default file 'topol' does not
-    exist or is not accessible.
-    The following extensions were tried to complete the file name:
-      .tpr
+starting mdrun 'opc in water'
+500000 steps,   1000.0 ps.
 
-For more information and tips for troubleshooting, please check the GROMACS
-website at http://www.gromacs.org/Documentation/Errors
--------------------------------------------------------
+Writing final coordinates.
+
+               Core t (s)   Wall t (s)        (%)
+       Time:     7946.000      993.251      800.0
+                 (ns/day)    (hour/ns)
+Performance:       86.987        0.276
+
+GROMACS reminds you: "Sacrifices must be made" (Otto Lilienthal, dying after having crashed with his glider in 1896)
+

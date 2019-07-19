@@ -34,7 +34,7 @@ case ${run} in
 
 esac
 
-gmx grompp -maxwarn 1 -v -f ${base_dir}/mdp/${run}.mdp -c ${prev}.gro -p topol.top -o ${run}.tpr ${extra_flag}
+gmx grompp -maxwarn 2 -v -f ${base_dir}/mdp/${run}.mdp -c ${prev}.gro -p topol.top -o ${run}.tpr ${extra_flag}
 gmx mdrun -deffnm ${run} &> ${run}.job
 }
 

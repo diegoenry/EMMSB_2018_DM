@@ -1,0 +1,7 @@
+#include "oplsaa.ff/forcefield.itp"
+#include "oplsaa.ff/tip4pew.itp"
+
+[ System ]
+tip4pew
+
+[ Molecules ]

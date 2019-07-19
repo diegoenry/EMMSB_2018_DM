@@ -34,19 +34,28 @@ Command line:
   gmx mdrun -deffnm min2
 
 
--------------------------------------------------------
-Program:     gmx mdrun, version 2019.3
-Source file: src/gromacs/options/options.cpp (line 190)
-Function:    void gmx::internal::OptionSectionImpl::finish()
+Back Off! I just backed up min2.log to ./#min2.log.1#
+Reading file min2.tpr, VERSION 2019.3 (single precision)
+Using 1 MPI thread
+Using 8 OpenMP threads 
 
-Error in user input:
-Invalid input values
-  In option s
-    Required option was not provided, and the default file 'topol' does not
-    exist or is not accessible.
-    The following extensions were tried to complete the file name:
-      .tpr
 
-For more information and tips for troubleshooting, please check the GROMACS
-website at http://www.gromacs.org/Documentation/Errors
--------------------------------------------------------
+Back Off! I just backed up min2.trr to ./#min2.trr.1#
+
+Back Off! I just backed up min2.edr to ./#min2.edr.1#
+
+Steepest Descents:
+   Tolerance (Fmax)   =  1.00000e+01
+   Number of steps    =        50000
+
+writing lowest energy coordinates.
+
+Back Off! I just backed up min2.gro to ./#min2.gro.1#
+
+Steepest Descents converged to Fmax < 10 in 1495 steps
+Potential Energy  = -5.4641094e+04
+Maximum force     =  9.0363646e+00 on atom 854
+Norm of force     =  1.1566595e+00
+
+GROMACS reminds you: "People disagree with me. I just ignore them." (Linus Torvalds on the use of C++ in the kernel)
+

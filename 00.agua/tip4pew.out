@@ -1,0 +1,94 @@
+processing topology...
+turning H bonds into constraints...
+Analysing residue names:
+There are:   909      Water residues
+Calculating fourier grid dimensions for X Y Z
+Using a fourier grid of 25x25x25, spacing 0.120 0.120 0.120
+This run will generate roughly 0 Mb of data
+processing topology...
+Analysing residue names:
+There are:   909      Water residues
+Calculating fourier grid dimensions for X Y Z
+Using a fourier grid of 25x25x25, spacing 0.120 0.120 0.120
+This run will generate roughly 2 Mb of data
+processing topology...
+turning H bonds into constraints...
+Analysing residue names:
+There are:   909      Water residues
+Determining Verlet buffer for a tolerance of 0.005 kJ/mol/ps at 298.15 K
+Calculated rlist for 1x1 atom pair-list as 1.038 nm, buffer size 0.038 nm
+Set rlist, assuming 4x4 atom pair-list, to 1.001 nm, buffer size 0.001 nm
+Note that mdrun will redetermine rlist based on the actual pair-list setup
+Calculating fourier grid dimensions for X Y Z
+Using a fourier grid of 25x25x25, spacing 0.120 0.120 0.120
+This run will generate roughly 1 Mb of data
+processing topology...
+turning H bonds into constraints...
+Analysing residue names:
+There are:   909      Water residues
+Determining Verlet buffer for a tolerance of 0.005 kJ/mol/ps at 298.15 K
+Calculated rlist for 1x1 atom pair-list as 1.038 nm, buffer size 0.038 nm
+Set rlist, assuming 4x4 atom pair-list, to 1.001 nm, buffer size 0.001 nm
+Note that mdrun will redetermine rlist based on the actual pair-list setup
+Calculating fourier grid dimensions for X Y Z
+Using a fourier grid of 25x25x25, spacing 0.120 0.120 0.120
+This run will generate roughly 4 Mb of data
+processing topology...
+turning H bonds into constraints...
+Analysing residue names:
+There are:   909      Water residues
+Determining Verlet buffer for a tolerance of 0.005 kJ/mol/ps at 298.15 K
+Calculated rlist for 1x1 atom pair-list as 1.038 nm, buffer size 0.038 nm
+Set rlist, assuming 4x4 atom pair-list, to 1.001 nm, buffer size 0.001 nm
+Note that mdrun will redetermine rlist based on the actual pair-list setup
+Calculating fourier grid dimensions for X Y Z
+Using a fourier grid of 28x28x28, spacing 0.108 0.108 0.108
+This run will generate roughly 48 Mb of data
+
+Statistics over 5000001 steps [ 0.0000 through 10000.0000 ps ], 4 data sets
+All statistics are over 50001 points
+
+Energy                      Average   Err.Est.       RMSD  Tot-Drift
+-------------------------------------------------------------------------------
+Potential                  -42269.4        1.9    228.859    1.77239  (kJ/mol)
+Temperature                 298.127      0.013    6.07641  -0.049342  (K)
+Pressure                    4.35657       0.96    454.908   -0.27402  (bar)
+Density                     995.294        0.2    8.84207   0.787369  (kg/m^3)
+Going to read 0 old index file(s)
+Analysing residue names:
+There are:   909      Water residues
+
+  0 System              :  3636 atoms
+  1 Water               :  3636 atoms
+  2 SOL                 :  3636 atoms
+
+ nr : group      '!': not  'name' nr name   'splitch' nr    Enter: list groups
+ 'a': atom       '&': and  'del' nr         'splitres' nr   'l': list residues
+ 't': atom type  '|': or   'keep' nr        'splitat' nr    'h': help
+ 'r': residue              'res' nr         'chain' char
+ "name": group             'case': case sensitive           'q': save and quit
+ 'ri': residue index
+
+> 
+Found 909 atoms with name OW
+
+  3 OW                  :   909 atoms
+
+> 
+Found 909 atoms with name HW1
+
+  4 HW1                 :   909 atoms
+
+> 
+Specify 2 groups to analyze:
+Selected 2: 'SOL'
+Selected 2: 'SOL'
+Found 909 donors and 909 acceptors
+
+Will do grid-search on 7x7x7 grid, rcut=0.34999999
+Frame loop parallelized with OpenMP using 8 threads.
+Average number of hbonds per timeframe 1652.791 out of 413140 possible
+Selected 2: 'SOL'
+Fitting from 1000 to 9000 ps
+
+D[       SOL] 2.2269 (+/- 0.0462) 1e-5 cm^2/s

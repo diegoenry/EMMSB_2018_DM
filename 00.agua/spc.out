@@ -1,0 +1,48 @@
+
+Statistics over 5000001 steps [ 0.0000 through 10000.0000 ps ], 4 data sets
+All statistics are over 50001 points
+
+Energy                      Average   Err.Est.       RMSD  Tot-Drift
+-------------------------------------------------------------------------------
+Potential                    -36910        1.3    219.552   -3.54476  (kJ/mol)
+Temperature                 298.161      0.012    6.19952  0.0508981  (K)
+Pressure                   0.485673        1.2    428.677   -7.87508  (bar)
+Density                     977.898      0.076    9.39486   0.120634  (kg/m^3)
+Going to read 0 old index file(s)
+Analysing residue names:
+There are:   884      Water residues
+
+  0 System              :  2652 atoms
+  1 Water               :  2652 atoms
+  2 SOL                 :  2652 atoms
+
+ nr : group      '!': not  'name' nr name   'splitch' nr    Enter: list groups
+ 'a': atom       '&': and  'del' nr         'splitres' nr   'l': list residues
+ 't': atom type  '|': or   'keep' nr        'splitat' nr    'h': help
+ 'r': residue              'res' nr         'chain' char
+ "name": group             'case': case sensitive           'q': save and quit
+ 'ri': residue index
+
+> 
+Found 884 atoms with name OW
+
+  3 OW                  :   884 atoms
+
+> 
+Found 884 atoms with name HW1
+
+  4 HW1                 :   884 atoms
+
+> 
+Specify 2 groups to analyze:
+Selected 2: 'SOL'
+Selected 2: 'SOL'
+Found 884 donors and 884 acceptors
+
+Will do grid-search on 7x7x7 grid, rcut=0.34999999
+Frame loop parallelized with OpenMP using 8 threads.
+Average number of hbonds per timeframe 1532.740 out of 390728 possible
+Selected 2: 'SOL'
+Fitting from 1000 to 9000 ps
+
+D[       SOL] 4.0460 (+/- 0.0494) 1e-5 cm^2/s

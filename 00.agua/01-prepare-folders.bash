@@ -1,5 +1,7 @@
 # Config ----------------------------------------------------------------------
-WATER_MODELS="spc spce tip3p tip4p tip5p opc opc3"
+#WATER_MODELS="spc spce tip3p tip4p tip4pew tip5p opc "
+WATER_MODELS="tip4pew"
+
 base_dir=$PWD
 
 # Source GROMACS
@@ -28,10 +30,10 @@ EOF
 
 # Define template water box
 case ${model} in
-"spc"|"spce"|"tip3p"|"opc")  
+"spc"|"spce"|"tip3p")  
     template_box="spc216"
 	;;
-"tip4p|opc3") 
+"tip4p"|"tip4pew"|"opc") 
 	template_box="tip4p"
 
 	;;

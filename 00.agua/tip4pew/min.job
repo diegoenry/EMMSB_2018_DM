@@ -1,0 +1,81 @@
+                      :-) GROMACS - gmx mdrun, 2019.3 (-:
+
+                            GROMACS is written by:
+     Emile Apol      Rossen Apostolov      Paul Bauer     Herman J.C. Berendsen
+    Par Bjelkmar      Christian Blau   Viacheslav Bolnykh     Kevin Boyd    
+ Aldert van Buuren   Rudi van Drunen     Anton Feenstra       Alan Gray     
+  Gerrit Groenhof     Anca Hamuraru    Vincent Hindriksen  M. Eric Irrgang  
+  Aleksei Iupinov   Christoph Junghans     Joe Jordan     Dimitrios Karkoulis
+    Peter Kasson        Jiri Kraus      Carsten Kutzner      Per Larsson    
+  Justin A. Lemkul    Viveca Lindahl    Magnus Lundborg     Erik Marklund   
+    Pascal Merz     Pieter Meulenhoff    Teemu Murtola       Szilard Pall   
+    Sander Pronk      Roland Schulz      Michael Shirts    Alexey Shvetsov  
+   Alfons Sijbers     Peter Tieleman      Jon Vincent      Teemu Virolainen 
+ Christian Wennberg    Maarten Wolf   
+                           and the project leaders:
+        Mark Abraham, Berk Hess, Erik Lindahl, and David van der Spoel
+
+Copyright (c) 1991-2000, University of Groningen, The Netherlands.
+Copyright (c) 2001-2018, The GROMACS development team at
+Uppsala University, Stockholm University and
+the Royal Institute of Technology, Sweden.
+check out http://www.gromacs.org for more information.
+
+GROMACS is free software; you can redistribute it and/or modify it
+under the terms of the GNU Lesser General Public License
+as published by the Free Software Foundation; either version 2.1
+of the License, or (at your option) any later version.
+
+GROMACS:      gmx mdrun, version 2019.3
+Executable:   /home/dgomes/software/gmx2019.3/bin/gmx
+Data prefix:  /home/dgomes/software/gmx2019.3
+Working dir:  /home/dgomes/water_md/tip4pew
+Command line:
+  gmx mdrun -deffnm min
+
+The current CPU can measure timings more accurately than the code in
+gmx mdrun was configured to use. This might affect your simulation
+speed as accurate timings are needed for load-balancing.
+Please consider rebuilding gmx mdrun with the GMX_USE_RDTSCP=ON CMake option.
+Reading file min.tpr, VERSION 2019.3 (single precision)
+
+Using 1 MPI thread
+Using 8 OpenMP threads 
+
+
+Steepest Descents:
+   Tolerance (Fmax)   =  1.00000e+01
+   Number of steps    =         1000
+
+Step 9, time 0.009 (ps)  LINCS WARNING
+relative constraint deviation after LINCS:
+rms 0.004141, max 0.078334 (between atoms 3569 and 3570)
+bonds that rotated more than 30 degrees:
+ atom 1 atom 2  angle  previous, current, constraint length
+   2141   2142   32.8    0.0977   0.0895      0.0957
+   2141   2143   32.3    0.0976   0.0896      0.0957
+   3569   3570   35.3    0.0979   0.0882      0.0957
+   3569   3571   34.7    0.0978   0.0882      0.0957
+
+Step 10, time 0.01 (ps)  LINCS WARNING
+relative constraint deviation after LINCS:
+rms 0.002378, max 0.049453 (between atoms 3569 and 3570)
+bonds that rotated more than 30 degrees:
+ atom 1 atom 2  angle  previous, current, constraint length
+   2141   2142   35.6    0.0895   0.0995      0.0957
+   2141   2143   36.7    0.0896   0.0992      0.0957
+   3569   3570   38.9    0.0882   0.1005      0.0957
+   3569   3571   40.3    0.0882   0.1000      0.0957
+
+Energy minimization reached the maximum number of steps before the forces
+reached the requested precision Fmax < 10.
+
+writing lowest energy coordinates.
+
+Steepest Descents did not converge to Fmax < 10 in 1001 steps.
+Potential Energy  = -4.9579141e+04
+Maximum force     =  1.3831628e+02 on atom 2527
+Norm of force     =  9.2680724e+00
+
+GROMACS reminds you: "Stay Cool, This is a Robbery" (Pulp Fiction)
+

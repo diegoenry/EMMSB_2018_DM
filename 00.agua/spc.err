@@ -1,0 +1,283 @@
+                      :-) GROMACS - gmx energy, 2019.3 (-:
+
+                            GROMACS is written by:
+     Emile Apol      Rossen Apostolov      Paul Bauer     Herman J.C. Berendsen
+    Par Bjelkmar      Christian Blau   Viacheslav Bolnykh     Kevin Boyd    
+ Aldert van Buuren   Rudi van Drunen     Anton Feenstra       Alan Gray     
+  Gerrit Groenhof     Anca Hamuraru    Vincent Hindriksen  M. Eric Irrgang  
+  Aleksei Iupinov   Christoph Junghans     Joe Jordan     Dimitrios Karkoulis
+    Peter Kasson        Jiri Kraus      Carsten Kutzner      Per Larsson    
+  Justin A. Lemkul    Viveca Lindahl    Magnus Lundborg     Erik Marklund   
+    Pascal Merz     Pieter Meulenhoff    Teemu Murtola       Szilard Pall   
+    Sander Pronk      Roland Schulz      Michael Shirts    Alexey Shvetsov  
+   Alfons Sijbers     Peter Tieleman      Jon Vincent      Teemu Virolainen 
+ Christian Wennberg    Maarten Wolf   
+                           and the project leaders:
+        Mark Abraham, Berk Hess, Erik Lindahl, and David van der Spoel
+
+Copyright (c) 1991-2000, University of Groningen, The Netherlands.
+Copyright (c) 2001-2018, The GROMACS development team at
+Uppsala University, Stockholm University and
+the Royal Institute of Technology, Sweden.
+check out http://www.gromacs.org for more information.
+
+GROMACS is free software; you can redistribute it and/or modify it
+under the terms of the GNU Lesser General Public License
+as published by the Free Software Foundation; either version 2.1
+of the License, or (at your option) any later version.
+
+GROMACS:      gmx energy, version 2019.3
+Executable:   /home/dgomes/software/gmx2019.3/bin/gmx
+Data prefix:  /home/dgomes/software/gmx2019.3
+Working dir:  /home/dgomes/water_md/spc
+Command line:
+  gmx energy -f prd.edr -o energy.xvg -xvg none
+
+Opened prd.edr as single precision energy file
+
+Select the terms you want from the following list by
+selecting either (part of) the name or the number or a combination.
+End your selection with an empty line or a zero.
+-------------------------------------------------------------------
+  1  LJ-(SR)          2  Disper.-corr.    3  Coulomb-(SR)     4  Coul.-recip.  
+  5  Potential        6  Kinetic-En.      7  Total-Energy     8  Conserved-En. 
+  9  Temperature     10  Pres.-DC        11  Pressure        12  Box-X         
+ 13  Box-Y           14  Box-Z           15  Volume          16  Density       
+ 17  pV              18  Enthalpy        19  Vir-XX          20  Vir-XY        
+ 21  Vir-XZ          22  Vir-YX          23  Vir-YY          24  Vir-YZ        
+ 25  Vir-ZX          26  Vir-ZY          27  Vir-ZZ          28  Pres-XX       
+ 29  Pres-XY         30  Pres-XZ         31  Pres-YX         32  Pres-YY       
+ 33  Pres-YZ         34  Pres-ZX         35  Pres-ZY         36  Pres-ZZ       
+ 37  #Surf*SurfTen   38  Box-Vel-XX      39  Box-Vel-YY      40  Box-Vel-ZZ    
+ 41  T-System      
+
+String 'q' does not match anything
+Reading energy frame      0 time    0.000         Reading energy frame      1 time   10.000         Reading energy frame      2 time   20.000         Reading energy frame      3 time   30.000         Reading energy frame      4 time   40.000         Reading energy frame      5 time   50.000         Reading energy frame      6 time   60.000         Reading energy frame      7 time   70.000         Reading energy frame      8 time   80.000         Reading energy frame      9 time   90.000         Reading energy frame     10 time  100.000         Reading energy frame     11 time  110.000         Reading energy frame     12 time  120.000         Reading energy frame     13 time  130.000         Reading energy frame     14 time  140.000         Reading energy frame     15 time  150.000         Reading energy frame     16 time  160.000         Reading energy frame     17 time  170.000         Reading energy frame     18 time  180.000         Reading energy frame     19 time  190.000         Reading energy frame     20 time  200.000         Reading energy frame     30 time  300.000         Reading energy frame     40 time  400.000         Reading energy frame     50 time  500.000         Reading energy frame     60 time  600.000         Reading energy frame     70 time  700.000         Reading energy frame     80 time  800.000         Reading energy frame     90 time  900.000         Reading energy frame    100 time 1000.000         Reading energy frame    110 time 1100.000         Reading energy frame    120 time 1200.000         Reading energy frame    130 time 1300.000         Reading energy frame    140 time 1400.000         Reading energy frame    150 time 1500.000         Reading energy frame    160 time 1600.000         Reading energy frame    170 time 1700.000         Reading energy frame    180 time 1800.000         Reading energy frame    190 time 1900.000         Reading energy frame    200 time 2000.000         Reading energy frame    300 time 3000.000         Reading energy frame    400 time 4000.000         Reading energy frame    500 time 5000.000         Reading energy frame    600 time 6000.000         Reading energy frame    700 time 7000.000         Reading energy frame    800 time 8000.000         Reading energy frame    900 time 9000.000         Reading energy frame   1000 time 10000.000         Last energy frame read 1000 time 10000.000         
+
+GROMACS reminds you: "I'll Master Your Language, and In the Meantime I'll Create My Own" (Tricky)
+
+                     :-) GROMACS - gmx make_ndx, 2019.3 (-:
+
+                            GROMACS is written by:
+     Emile Apol      Rossen Apostolov      Paul Bauer     Herman J.C. Berendsen
+    Par Bjelkmar      Christian Blau   Viacheslav Bolnykh     Kevin Boyd    
+ Aldert van Buuren   Rudi van Drunen     Anton Feenstra       Alan Gray     
+  Gerrit Groenhof     Anca Hamuraru    Vincent Hindriksen  M. Eric Irrgang  
+  Aleksei Iupinov   Christoph Junghans     Joe Jordan     Dimitrios Karkoulis
+    Peter Kasson        Jiri Kraus      Carsten Kutzner      Per Larsson    
+  Justin A. Lemkul    Viveca Lindahl    Magnus Lundborg     Erik Marklund   
+    Pascal Merz     Pieter Meulenhoff    Teemu Murtola       Szilard Pall   
+    Sander Pronk      Roland Schulz      Michael Shirts    Alexey Shvetsov  
+   Alfons Sijbers     Peter Tieleman      Jon Vincent      Teemu Virolainen 
+ Christian Wennberg    Maarten Wolf   
+                           and the project leaders:
+        Mark Abraham, Berk Hess, Erik Lindahl, and David van der Spoel
+
+Copyright (c) 1991-2000, University of Groningen, The Netherlands.
+Copyright (c) 2001-2018, The GROMACS development team at
+Uppsala University, Stockholm University and
+the Royal Institute of Technology, Sweden.
+check out http://www.gromacs.org for more information.
+
+GROMACS is free software; you can redistribute it and/or modify it
+under the terms of the GNU Lesser General Public License
+as published by the Free Software Foundation; either version 2.1
+of the License, or (at your option) any later version.
+
+GROMACS:      gmx make_ndx, version 2019.3
+Executable:   /home/dgomes/software/gmx2019.3/bin/gmx
+Data prefix:  /home/dgomes/software/gmx2019.3
+Working dir:  /home/dgomes/water_md/spc
+Command line:
+  gmx make_ndx -f prd.tpr -o index.ndx
+
+
+Reading structure file
+Reading file prd.tpr, VERSION 2019.3 (single precision)
+Reading file prd.tpr, VERSION 2019.3 (single precision)
+
+Back Off! I just backed up index.ndx to ./#index.ndx.1#
+
+GROMACS reminds you: "Confirmed" (Star Trek)
+
+                      :-) GROMACS - gmx hbond, 2019.3 (-:
+
+                            GROMACS is written by:
+     Emile Apol      Rossen Apostolov      Paul Bauer     Herman J.C. Berendsen
+    Par Bjelkmar      Christian Blau   Viacheslav Bolnykh     Kevin Boyd    
+ Aldert van Buuren   Rudi van Drunen     Anton Feenstra       Alan Gray     
+  Gerrit Groenhof     Anca Hamuraru    Vincent Hindriksen  M. Eric Irrgang  
+  Aleksei Iupinov   Christoph Junghans     Joe Jordan     Dimitrios Karkoulis
+    Peter Kasson        Jiri Kraus      Carsten Kutzner      Per Larsson    
+  Justin A. Lemkul    Viveca Lindahl    Magnus Lundborg     Erik Marklund   
+    Pascal Merz     Pieter Meulenhoff    Teemu Murtola       Szilard Pall   
+    Sander Pronk      Roland Schulz      Michael Shirts    Alexey Shvetsov  
+   Alfons Sijbers     Peter Tieleman      Jon Vincent      Teemu Virolainen 
+ Christian Wennberg    Maarten Wolf   
+                           and the project leaders:
+        Mark Abraham, Berk Hess, Erik Lindahl, and David van der Spoel
+
+Copyright (c) 1991-2000, University of Groningen, The Netherlands.
+Copyright (c) 2001-2018, The GROMACS development team at
+Uppsala University, Stockholm University and
+the Royal Institute of Technology, Sweden.
+check out http://www.gromacs.org for more information.
+
+GROMACS is free software; you can redistribute it and/or modify it
+under the terms of the GNU Lesser General Public License
+as published by the Free Software Foundation; either version 2.1
+of the License, or (at your option) any later version.
+
+GROMACS:      gmx hbond, version 2019.3
+Executable:   /home/dgomes/software/gmx2019.3/bin/gmx
+Data prefix:  /home/dgomes/software/gmx2019.3
+Working dir:  /home/dgomes/water_md/spc
+Command line:
+  gmx hbond -s prd.tpr -f prd.xtc -n index.ndx -num hbnum.xvg -xvg none
+
+Reading file prd.tpr, VERSION 2019.3 (single precision)
+Group     0 (         System) has  2652 elements
+Group     1 (          Water) has  2652 elements
+Group     2 (            SOL) has  2652 elements
+Group     3 (             OW) has   884 elements
+Group     4 (            HW1) has   884 elements
+Select a group: Select a group: Calculating hydrogen bonds in SOL (2652 atoms)
+Reading frame       0 time    0.000   Reading frame       1 time    4.000   Reading frame       2 time    8.000   Reading frame       3 time   12.000   Reading frame       4 time   16.000   Reading frame       5 time   20.000   Reading frame       6 time   24.000   Reading frame       7 time   28.000   Reading frame       8 time   32.000   Reading frame       9 time   36.000   Reading frame      10 time   40.000   Reading frame      11 time   44.000   Reading frame      12 time   48.000   Reading frame      13 time   52.000   Reading frame      14 time   56.000   Reading frame      15 time   60.000   Reading frame      16 time   64.000   Reading frame      17 time   68.000   Reading frame      18 time   72.000   Reading frame      19 time   76.000   Reading frame      20 time   80.000   Reading frame      30 time  120.000   Reading frame      40 time  160.000   Reading frame      50 time  200.000   Reading frame      60 time  240.000   Reading frame      70 time  280.000   Reading frame      80 time  320.000   Reading frame      90 time  360.000   Reading frame     100 time  400.000   Reading frame     110 time  440.000   Reading frame     120 time  480.000   Reading frame     130 time  520.000   Reading frame     140 time  560.000   Reading frame     150 time  600.000   Reading frame     160 time  640.000   Reading frame     170 time  680.000   Reading frame     180 time  720.000   Reading frame     190 time  760.000   Reading frame     200 time  800.000   Reading frame     300 time 1200.000   Reading frame     400 time 1600.000   Reading frame     500 time 2000.000   Reading frame     600 time 2400.000   Reading frame     700 time 2800.000   Reading frame     800 time 3200.000   Reading frame     900 time 3600.000   Reading frame    1000 time 4000.000   Reading frame    1100 time 4400.000   Reading frame    1200 time 4800.000   Reading frame    1300 time 5200.000   Reading frame    1400 time 5600.000   Reading frame    1500 time 6000.000   Reading frame    1600 time 6400.000   Reading frame    1700 time 6800.000   Reading frame    1800 time 7200.000   Reading frame    1900 time 7600.000   Reading frame    2000 time 8000.000   
+
+Back Off! I just backed up hbnum.xvg to ./#hbnum.xvg.1#
+
+GROMACS reminds you: "You're Insignificant" (Tricky)
+
+                       :-) GROMACS - gmx msd, 2019.3 (-:
+
+                            GROMACS is written by:
+     Emile Apol      Rossen Apostolov      Paul Bauer     Herman J.C. Berendsen
+    Par Bjelkmar      Christian Blau   Viacheslav Bolnykh     Kevin Boyd    
+ Aldert van Buuren   Rudi van Drunen     Anton Feenstra       Alan Gray     
+  Gerrit Groenhof     Anca Hamuraru    Vincent Hindriksen  M. Eric Irrgang  
+  Aleksei Iupinov   Christoph Junghans     Joe Jordan     Dimitrios Karkoulis
+    Peter Kasson        Jiri Kraus      Carsten Kutzner      Per Larsson    
+  Justin A. Lemkul    Viveca Lindahl    Magnus Lundborg     Erik Marklund   
+    Pascal Merz     Pieter Meulenhoff    Teemu Murtola       Szilard Pall   
+    Sander Pronk      Roland Schulz      Michael Shirts    Alexey Shvetsov  
+   Alfons Sijbers     Peter Tieleman      Jon Vincent      Teemu Virolainen 
+ Christian Wennberg    Maarten Wolf   
+                           and the project leaders:
+        Mark Abraham, Berk Hess, Erik Lindahl, and David van der Spoel
+
+Copyright (c) 1991-2000, University of Groningen, The Netherlands.
+Copyright (c) 2001-2018, The GROMACS development team at
+Uppsala University, Stockholm University and
+the Royal Institute of Technology, Sweden.
+check out http://www.gromacs.org for more information.
+
+GROMACS is free software; you can redistribute it and/or modify it
+under the terms of the GNU Lesser General Public License
+as published by the Free Software Foundation; either version 2.1
+of the License, or (at your option) any later version.
+
+GROMACS:      gmx msd, version 2019.3
+Executable:   /home/dgomes/software/gmx2019.3/bin/gmx
+Data prefix:  /home/dgomes/software/gmx2019.3
+Working dir:  /home/dgomes/water_md/spc
+Command line:
+  gmx msd -s prd.tpr -f prd.xtc -o msd.xvg -xvg no
+
+Reading file prd.tpr, VERSION 2019.3 (single precision)
+Reading file prd.tpr, VERSION 2019.3 (single precision)
+
+Select a group to calculate mean squared displacement for:
+Group     0 (         System) has  2652 elements
+Group     1 (          Water) has  2652 elements
+Group     2 (            SOL) has  2652 elements
+Select a group: Reading frame       0 time    0.000   Reading frame       1 time    4.000   Reading frame       2 time    8.000   Reading frame       3 time   12.000   Reading frame       4 time   16.000   Reading frame       5 time   20.000   Reading frame       6 time   24.000   Reading frame       7 time   28.000   Reading frame       8 time   32.000   Reading frame       9 time   36.000   Reading frame      10 time   40.000   Reading frame      11 time   44.000   Reading frame      12 time   48.000   Reading frame      13 time   52.000   Reading frame      14 time   56.000   Reading frame      15 time   60.000   Reading frame      16 time   64.000   Reading frame      17 time   68.000   Reading frame      18 time   72.000   Reading frame      19 time   76.000   Reading frame      20 time   80.000   Reading frame      30 time  120.000   Reading frame      40 time  160.000   Reading frame      50 time  200.000   Reading frame      60 time  240.000   Reading frame      70 time  280.000   Reading frame      80 time  320.000   Reading frame      90 time  360.000   Reading frame     100 time  400.000   Reading frame     110 time  440.000   Reading frame     120 time  480.000   Reading frame     130 time  520.000   Reading frame     140 time  560.000   Reading frame     150 time  600.000   Reading frame     160 time  640.000   Reading frame     170 time  680.000   Reading frame     180 time  720.000   Reading frame     190 time  760.000   Reading frame     200 time  800.000   Reading frame     300 time 1200.000   Reading frame     400 time 1600.000   Reading frame     500 time 2000.000   Reading frame     600 time 2400.000   Reading frame     700 time 2800.000   Reading frame     800 time 3200.000   Reading frame     900 time 3600.000   Reading frame    1000 time 4000.000   Reading frame    1100 time 4400.000   Reading frame    1200 time 4800.000   Reading frame    1300 time 5200.000   Reading frame    1400 time 5600.000   Reading frame    1500 time 6000.000   Reading frame    1600 time 6400.000   Reading frame    1700 time 6800.000   Reading frame    1800 time 7200.000   Reading frame    1900 time 7600.000   Reading frame    2000 time 8000.000   
+
+Used 501 restart points spaced 10 ps over 10000 ps
+
+
+GROMACS reminds you: "It's an easy game, just don't let the ball past!" (Szilard Pall)
+
+                       :-) GROMACS - gmx rdf, 2019.3 (-:
+
+                            GROMACS is written by:
+     Emile Apol      Rossen Apostolov      Paul Bauer     Herman J.C. Berendsen
+    Par Bjelkmar      Christian Blau   Viacheslav Bolnykh     Kevin Boyd    
+ Aldert van Buuren   Rudi van Drunen     Anton Feenstra       Alan Gray     
+  Gerrit Groenhof     Anca Hamuraru    Vincent Hindriksen  M. Eric Irrgang  
+  Aleksei Iupinov   Christoph Junghans     Joe Jordan     Dimitrios Karkoulis
+    Peter Kasson        Jiri Kraus      Carsten Kutzner      Per Larsson    
+  Justin A. Lemkul    Viveca Lindahl    Magnus Lundborg     Erik Marklund   
+    Pascal Merz     Pieter Meulenhoff    Teemu Murtola       Szilard Pall   
+    Sander Pronk      Roland Schulz      Michael Shirts    Alexey Shvetsov  
+   Alfons Sijbers     Peter Tieleman      Jon Vincent      Teemu Virolainen 
+ Christian Wennberg    Maarten Wolf   
+                           and the project leaders:
+        Mark Abraham, Berk Hess, Erik Lindahl, and David van der Spoel
+
+Copyright (c) 1991-2000, University of Groningen, The Netherlands.
+Copyright (c) 2001-2018, The GROMACS development team at
+Uppsala University, Stockholm University and
+the Royal Institute of Technology, Sweden.
+check out http://www.gromacs.org for more information.
+
+GROMACS is free software; you can redistribute it and/or modify it
+under the terms of the GNU Lesser General Public License
+as published by the Free Software Foundation; either version 2.1
+of the License, or (at your option) any later version.
+
+GROMACS:      gmx rdf, version 2019.3
+Executable:   /home/dgomes/software/gmx2019.3/bin/gmx
+Data prefix:  /home/dgomes/software/gmx2019.3
+Working dir:  /home/dgomes/water_md/spc
+Command line:
+  gmx rdf -s prd.tpr -f prd.xtc -xvg none -ref OW -sel OW -n index.ndx -o rdf_D2O.xvg
+
+Reading file prd.tpr, VERSION 2019.3 (single precision)
+Reading file prd.tpr, VERSION 2019.3 (single precision)
+Reading frame       0 time    0.000   Reading frame       1 time    4.000   Reading frame       2 time    8.000   Reading frame       3 time   12.000   Reading frame       4 time   16.000   Reading frame       5 time   20.000   Reading frame       6 time   24.000   Reading frame       7 time   28.000   Reading frame       8 time   32.000   Reading frame       9 time   36.000   Reading frame      10 time   40.000   Reading frame      11 time   44.000   Reading frame      12 time   48.000   Reading frame      13 time   52.000   Reading frame      14 time   56.000   Reading frame      15 time   60.000   Reading frame      16 time   64.000   Reading frame      17 time   68.000   Reading frame      18 time   72.000   Reading frame      19 time   76.000   Reading frame      20 time   80.000   Reading frame      30 time  120.000   Reading frame      40 time  160.000   Reading frame      50 time  200.000   Reading frame      60 time  240.000   Reading frame      70 time  280.000   Reading frame      80 time  320.000   Reading frame      90 time  360.000   Reading frame     100 time  400.000   Reading frame     110 time  440.000   Reading frame     120 time  480.000   Reading frame     130 time  520.000   Reading frame     140 time  560.000   Reading frame     150 time  600.000   Reading frame     160 time  640.000   Reading frame     170 time  680.000   Reading frame     180 time  720.000   Reading frame     190 time  760.000   Reading frame     200 time  800.000   Reading frame     300 time 1200.000   Reading frame     400 time 1600.000   Reading frame     500 time 2000.000   Reading frame     600 time 2400.000   Reading frame     700 time 2800.000   Reading frame     800 time 3200.000   Reading frame     900 time 3600.000   Reading frame    1000 time 4000.000   Reading frame    1100 time 4400.000   Reading frame    1200 time 4800.000   Reading frame    1300 time 5200.000   Reading frame    1400 time 5600.000   Reading frame    1500 time 6000.000   Reading frame    1600 time 6400.000   Reading frame    1700 time 6800.000   Reading frame    1800 time 7200.000   Reading frame    1900 time 7600.000   Reading frame    2000 time 8000.000   
+Analyzed 2501 frames, last time 10000.000
+
+GROMACS reminds you: "A Pretty Village Burning Makes a Pretty Fire" (David Sandstrom)
+
+                       :-) GROMACS - gmx rdf, 2019.3 (-:
+
+                            GROMACS is written by:
+     Emile Apol      Rossen Apostolov      Paul Bauer     Herman J.C. Berendsen
+    Par Bjelkmar      Christian Blau   Viacheslav Bolnykh     Kevin Boyd    
+ Aldert van Buuren   Rudi van Drunen     Anton Feenstra       Alan Gray     
+  Gerrit Groenhof     Anca Hamuraru    Vincent Hindriksen  M. Eric Irrgang  
+  Aleksei Iupinov   Christoph Junghans     Joe Jordan     Dimitrios Karkoulis
+    Peter Kasson        Jiri Kraus      Carsten Kutzner      Per Larsson    
+  Justin A. Lemkul    Viveca Lindahl    Magnus Lundborg     Erik Marklund   
+    Pascal Merz     Pieter Meulenhoff    Teemu Murtola       Szilard Pall   
+    Sander Pronk      Roland Schulz      Michael Shirts    Alexey Shvetsov  
+   Alfons Sijbers     Peter Tieleman      Jon Vincent      Teemu Virolainen 
+ Christian Wennberg    Maarten Wolf   
+                           and the project leaders:
+        Mark Abraham, Berk Hess, Erik Lindahl, and David van der Spoel
+
+Copyright (c) 1991-2000, University of Groningen, The Netherlands.
+Copyright (c) 2001-2018, The GROMACS development team at
+Uppsala University, Stockholm University and
+the Royal Institute of Technology, Sweden.
+check out http://www.gromacs.org for more information.
+
+GROMACS is free software; you can redistribute it and/or modify it
+under the terms of the GNU Lesser General Public License
+as published by the Free Software Foundation; either version 2.1
+of the License, or (at your option) any later version.
+
+GROMACS:      gmx rdf, version 2019.3
+Executable:   /home/dgomes/software/gmx2019.3/bin/gmx
+Data prefix:  /home/dgomes/software/gmx2019.3
+Working dir:  /home/dgomes/water_md/spc
+Command line:
+  gmx rdf -s prd.tpr -f prd.xtc -xvg none -ref OW -sel HW1 -n index.ndx -o rdf_HDO.xvg
+
+Reading file prd.tpr, VERSION 2019.3 (single precision)
+Reading file prd.tpr, VERSION 2019.3 (single precision)
+Reading frame       0 time    0.000   Reading frame       1 time    4.000   Reading frame       2 time    8.000   Reading frame       3 time   12.000   Reading frame       4 time   16.000   Reading frame       5 time   20.000   Reading frame       6 time   24.000   Reading frame       7 time   28.000   Reading frame       8 time   32.000   Reading frame       9 time   36.000   Reading frame      10 time   40.000   Reading frame      11 time   44.000   Reading frame      12 time   48.000   Reading frame      13 time   52.000   Reading frame      14 time   56.000   Reading frame      15 time   60.000   Reading frame      16 time   64.000   Reading frame      17 time   68.000   Reading frame      18 time   72.000   Reading frame      19 time   76.000   Reading frame      20 time   80.000   Reading frame      30 time  120.000   Reading frame      40 time  160.000   Reading frame      50 time  200.000   Reading frame      60 time  240.000   Reading frame      70 time  280.000   Reading frame      80 time  320.000   Reading frame      90 time  360.000   Reading frame     100 time  400.000   Reading frame     110 time  440.000   Reading frame     120 time  480.000   Reading frame     130 time  520.000   Reading frame     140 time  560.000   Reading frame     150 time  600.000   Reading frame     160 time  640.000   Reading frame     170 time  680.000   Reading frame     180 time  720.000   Reading frame     190 time  760.000   Reading frame     200 time  800.000   Reading frame     300 time 1200.000   Reading frame     400 time 1600.000   Reading frame     500 time 2000.000   Reading frame     600 time 2400.000   Reading frame     700 time 2800.000   Reading frame     800 time 3200.000   Reading frame     900 time 3600.000   Reading frame    1000 time 4000.000   Reading frame    1100 time 4400.000   Reading frame    1200 time 4800.000   Reading frame    1300 time 5200.000   Reading frame    1400 time 5600.000   Reading frame    1500 time 6000.000   Reading frame    1600 time 6400.000   Reading frame    1700 time 6800.000   Reading frame    1800 time 7200.000   Reading frame    1900 time 7600.000   Reading frame    2000 time 8000.000   
+Analyzed 2501 frames, last time 10000.000
+
+GROMACS reminds you: "You Fill Your Space So Sweet" (F. Apple)
+

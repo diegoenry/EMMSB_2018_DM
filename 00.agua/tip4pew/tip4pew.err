@@ -1,0 +1,2 @@
+/opt/gridengine/default/spool/compute-1-28/job_scripts/19292: line 96: warning: here-document at line 74 delimited by end-of-file (wanted `EOF')
+/opt/gridengine/default/spool/compute-1-28/job_scripts/19292: line 97: syntax error: unexpected end of file
