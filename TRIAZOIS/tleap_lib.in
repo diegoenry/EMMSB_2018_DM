@@ -5,9 +5,9 @@ source leaprc.gaff2
 loadAmberParams C4_gaff.frcmod
 
 # Carrega as coordenadas (.mol2 tem as ligacoes tb)
-mol = loadMol2 C4_gaff.mol2
+MOL = loadMol2 C4_gaff.mol2
 
 # Salva a topologia de referencia para a molecula C4
-saveOff mol C4_gaff.lib
+saveOff MOL C4_gaff.lib
 
-
+quit
