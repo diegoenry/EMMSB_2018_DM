@@ -18,7 +18,9 @@ loadOff C4_gaff.lib
 # Carrega o sistema.
 caixa = loadpdb mixture.pdb
 saveAmberParm caixa caixa.prmtop caixa.inpcrd
-savePDB caixa caixan.pdb
+savePDB caixa caixa.pdb
+
+set caixa box 40.7
 
 charge caixa
 
@@ -28,6 +30,7 @@ AddIons2 caixa Na+ 0
 
 # Salva sistema com ions: Topologia (prmtop) e coordenadas (rst7)
 saveamberparm caixa ionized.prmtop ionized.rst7 
+savePDB caixa ionized.pdb
 
 quit
 
