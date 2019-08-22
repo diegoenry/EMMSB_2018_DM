@@ -1,4 +1,4 @@
-#/bin/bash
+#!/bin/bash
 
 # Ativa o AMBER
 source ~/software/amber18/amber.sh
@@ -14,6 +14,7 @@ mpirun -np 8 sander.MPI -O \
   -i ${run_dir}/amber_inputs/${input}.in \
   -o ${run}.out \
   -r ${run}.rst7 \
+  -x ${run}.nc
 -inf ${run}.mdinfo \
   -p ${init}.prmtop \
   -c ${prev}.rst7 \
@@ -25,6 +26,7 @@ mpirun -n 8 pmemd.MPI -O \
   -i ${run_dir}/amber_inputs/${input}.in \
   -o ${run}.out \
   -r ${run}.rst7 \
+  -x ${run}.nc \
 -inf ${run}.mdinfo \
   -p ${init}.prmtop \
   -c ${prev}.rst7 \
@@ -37,6 +39,7 @@ pmemd.cuda -O \
   -i ${run_dir}/amber_inputs/${input}.in \
   -o ${run}.out \
   -r ${run}.rst7 \
+  -x ${run].nc \
 -inf ${run}.mdinfo \
   -p ${init}.prmtop \
   -c ${prev}.rst7 \
@@ -100,7 +103,7 @@ for run in "heat" "density" "equil" ; do
     input=${run}
     check_files
     case ${run} in 
-	    "density"|"equil") run_pmemd_cuda ;;
+	    "density"|"equil") run_pmemd ;;
 	    "heat") run_pmemd ;;
     esac
     prev=${run}
@@ -121,7 +124,7 @@ for run_type in "prod1 prod2 prod3" ;
     for part in $(seq 1 10) ; do
         check_files
         run=prod_${part}
-        run_pmemd_cuda
+        run_pmemd
         prev=${run}
     done
 
