@@ -1,0 +1,34 @@
+# Carrega os campos de forças.
+
+## GAFF2 
+source leaprc.gaff2 
+
+## Agua TIP3P
+source leaprc.water.tip3p
+
+## Ions
+loadAmberParams frcmod.ionsjc_tip3p
+
+## Carrega os parametros GAFF a molecula C4
+loadAmberParams C4_gaff.frcmod
+
+## Carrega a biblioteca eferencia para a molecula C4
+loadOff C4_gaff.lib
+ 
+# Carrega o sistema.
+caixa = loadpdb mixture.pdb
+saveAmberParm caixa caixa.prmtop caixa.inpcrd
+savePDB caixa caixan.pdb
+
+charge caixa
+
+# Insere o numero suficiente de ions para neutralizar
+AddIons2 caixa Cl- 0
+AddIons2 caixa Na+ 0
+
+# Salva sistema com ions: Topologia (prmtop) e coordenadas (rst7)
+saveamberparm caixa ionized.prmtop ionized.rst7 
+
+quit
+
+

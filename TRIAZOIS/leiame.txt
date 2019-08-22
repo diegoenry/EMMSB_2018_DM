@@ -1,0 +1,112 @@
+# Passo 1 - Criação da molécula: 
+Crie uma molécula completa, já com o estado de protonação desejado.
+* Assegure-se de ter todos os átomos de Hidrogênio
+* Otimize em 3D. (clean in 3D)
+* Salve no formato .SDF 
+
+# Passo 2 - Calcular as cargas no modelo Bond-Correction Charges (BCC)
+
+* Ative o AmberTools
+source  ~/software/amber18/amber.sh
+
+* Use o "antechamber" para
+   - Designar os TIPOS de átomos para o campo de forças GAFF2
+   - Otimizar a estrutura com o método semi-empirico AM1-BCC.
+   - Calcular as cargas com om modelo BCC
+   
+antechamber \
+	-i C4.sdf -fi mdl \
+	-o C4_gaff.mol2 -fo mol2 \
+	-at gaff2 \
+	-c bcc \
+	-nc 1 \
+	-pf y
+
+
+# Passo 3 - Designar parametros para o campo de forças GAFFF com o "parmchk2"
+
+parmchk2 \
+	-i C4_gaff.mol2 -f mol2 \
+	-o C4_gaff.frcmod -s 2 
+
+
+# Passo 4 - Converta o C4_gaff.mol2 para o formato PDB usando o antechamber.
+antechamber \
+	-i C4_gaff.mol2 -fi mol2 \
+	-o C4_gaff.pdb -fo pdb 
+	
+# Passo 5 - Montar caixa de simulação na concentracao desejada usando o "PACKMOL"
+	* Eu o exemplo "Simple mixture of water and urea"
+		http://m3g.iqm.unicamp.br/packmol/examples.shtml
+
+	* Descarregue a molécula de água. (ou construa uma você mesmo)
+		wget http://m3g.iqm.unicamp.br/packmol/examples/water.pdb
+
+    * Descarregue o arquivo de configuração, com os comentários.
+		wget http://m3g.iqm.unicamp.br/packmol/examples/mixture-comment.inp
+    
+    * Calcule a massa molar usando o "openbabel"
+		obprop water.pdb
+		obprop C4_gaff.pdb
+
+	* Voce deve obter: 
+		Água : 18.02 g/mol
+		  C4 : 126.18 g/mol
+
+# Passo 6 - Construir a caixa de simulação.
+Usaremos o "volume guesser" do packmol para preciso determinar volume 
+   do sistema de acordo com a densidade esperada.
+   Vamos com uma proporção de 10:1 água-C4.
+   
+	* Vá para o website do Volume Guesser.
+	http://m3g.iqm.unicamp.br/packmol/nmols.shtml
+	
+	* Number of types of molecules:  2 
+	
+	* Desired density:	0.9 g/mL  (vamos equilibrar isso depois)
+	
+	Type 1:
+		Number of molecules: 1000 	Molar mass: 18.02  g/mol
+	Type 2:
+		Number of molecules: 100 	Molar mass: 126.18 g/mol
+
+
+	* Use tais valores para modificar o "mixture-comment.inp":
+		volume: 152630.36 Å3  
+        lado da caixa cúbica: 53.44 Å 
+     
+	* O resultado deve ficar como abaixo
+# A mixture of water and C4
+tolerance 2.0
+filetype pdb
+output mixture.pdb
+
+structure water.pdb 
+  number 1000 
+  inside box 0. 0. 0. 53.44 53.44 53.44
+end structure
+
+structure C4_gaff.pdb
+  number 100
+  inside box 0. 0. 0. 53.44 53.44 53.44
+end structure
+
+
+# Passo 7 - Preparação da biblioteca para topologia do C4 para o AMBER.
+
+	* use o "tleap" e de os comandos abaixo.
+# Carrega o GAFF2
+source leaprc.gaff2 
+
+# Carrega os parametros GAFF a molecula C4
+loadAmberParams C4_gaff.frcmod
+
+# Carrega as coordenadas (.mol2 tem as ligacoes tb)
+mol = loadMol2 C4_gaff.mol2
+
+# Salva a topologia de referencia para a molecula C4
+saveOff mol C4_gaff.lib
+
+# Passo 8 (finamente) - Preparação da topologia e coordenadas para o AMBER.
+
+
